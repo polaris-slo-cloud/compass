@@ -42,8 +42,8 @@ data/squad_passages*
 # --- Generated figures ---
 /figures/
 
-# --- Local experiment outputs (paper cache lives in results/ and IS tracked) ---
-results/local/
+# --- Local experiment outputs (results/ is gitignored — populate by running experiments) ---
+results/
 *.log
 nohup.out
 
