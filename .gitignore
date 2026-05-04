@@ -40,7 +40,7 @@ data/squad_passages*
 *.faiss              # FAISS indexes — built via workflows/rag/build_index.py
 
 # --- Generated figures ---
-figures/
+/figures/
 
 # --- Local experiment outputs (paper cache lives in results/ and IS tracked) ---
 results/local/
