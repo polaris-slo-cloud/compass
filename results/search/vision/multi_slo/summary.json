@@ -1,0 +1,105 @@
+{
+  "pipeline": "vision_cascaded_detection",
+  "total_configs": 385,
+  "grid_evals": 77000,
+  "n_images": 200,
+  "timestamp": "2026-03-10T14:48:39.463955",
+  "results": [
+    {
+      "slo": 0.55,
+      "gt_feasible": 380,
+      "feasible_fraction": 0.987012987012987,
+      "compass_found": 385,
+      "true_positives": 380,
+      "recall": 1.0,
+      "compass_evals": 15950,
+      "grid_evals": 77000,
+      "savings": 0.7928571428571428,
+      "time_sec": 128.74765729904175
+    },
+    {
+      "slo": 0.6,
+      "gt_feasible": 370,
+      "feasible_fraction": 0.961038961038961,
+      "compass_found": 375,
+      "true_positives": 370,
+      "recall": 1.0,
+      "compass_evals": 24625,
+      "grid_evals": 77000,
+      "savings": 0.6801948051948052,
+      "time_sec": 209.7902340888977
+    },
+    {
+      "slo": 0.65,
+      "gt_feasible": 349,
+      "feasible_fraction": 0.9064935064935065,
+      "compass_found": 359,
+      "true_positives": 349,
+      "recall": 1.0,
+      "compass_evals": 34375,
+      "grid_evals": 77000,
+      "savings": 0.5535714285714286,
+      "time_sec": 312.18820881843567
+    },
+    {
+      "slo": 0.7,
+      "gt_feasible": 296,
+      "feasible_fraction": 0.7688311688311689,
+      "compass_found": 324,
+      "true_positives": 296,
+      "recall": 1.0,
+      "compass_evals": 37680,
+      "grid_evals": 77000,
+      "savings": 0.5106493506493506,
+      "time_sec": 353.0143358707428
+    },
+    {
+      "slo": 0.73,
+      "gt_feasible": 217,
+      "feasible_fraction": 0.5636363636363636,
+      "compass_found": 260,
+      "true_positives": 217,
+      "recall": 1.0,
+      "compass_evals": 35920,
+      "grid_evals": 77000,
+      "savings": 0.5335064935064935,
+      "time_sec": 341.0963246822357
+    },
+    {
+      "slo": 0.75,
+      "gt_feasible": 152,
+      "feasible_fraction": 0.3948051948051948,
+      "compass_found": 197,
+      "true_positives": 152,
+      "recall": 1.0,
+      "compass_evals": 31050,
+      "grid_evals": 77000,
+      "savings": 0.5967532467532468,
+      "time_sec": 299.26472306251526
+    },
+    {
+      "slo": 0.77,
+      "gt_feasible": 68,
+      "feasible_fraction": 0.17662337662337663,
+      "compass_found": 133,
+      "true_positives": 68,
+      "recall": 1.0,
+      "compass_evals": 25420,
+      "grid_evals": 77000,
+      "savings": 0.66987012987013,
+      "time_sec": 247.0057933330536
+    },
+    {
+      "slo": 0.78,
+      "gt_feasible": 38,
+      "feasible_fraction": 0.0987012987012987,
+      "compass_found": 92,
+      "true_positives": 38,
+      "recall": 1.0,
+      "compass_evals": 20220,
+      "grid_evals": 77000,
+      "savings": 0.7374025974025974,
+      "time_sec": 197.26760387420654
+    }
+  ]
+}

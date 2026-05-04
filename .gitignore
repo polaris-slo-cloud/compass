@@ -1,0 +1,52 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+.env
+
+# --- IDE ---
+.idea/
+.vscode/
+*.swp
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Internal / private ---
+.claude/
+CLAUDE.md
+Plan.MD
+
+# --- Heavy artifacts that get downloaded on first run ---
+data/coco/
+data/docvqa/
+data/squad_index/
+data/squad_passages*
+*.pt                 # YOLO weights — ultralytics auto-downloads
+*.faiss              # FAISS indexes — built via workflows/rag/build_index.py
+
+# --- Generated figures ---
+figures/
+
+# --- Local experiment outputs (paper cache lives in results/ and IS tracked) ---
+results/local/
+*.log
+nohup.out
+
+# --- Misc ---
+*.tmp
+.ipynb_checkpoints/

@@ -1,0 +1,1089 @@
+{
+  "metadata": {
+    "method": "compass",
+    "total_configs": 234,
+    "total_evaluated": 67,
+    "feasible_count": 0,
+    "best_accuracy": 0,
+    "best_config": null,
+    "total_time_sec": 631.9253151416779,
+    "sample_evals": 1090
+  },
+  "feasible_configs": [],
+  "all_evaluated": [
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 1,
+        "reranker_model": "bge-base",
+        "retriever_k": 20
+      },
+      "accuracy": 0.4666666666666667,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 1,
+        "reranker_model": "bge-base",
+        "retriever_k": 3
+      },
+      "accuracy": 0.6023809523809525,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6502857142857144,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 10,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.35357142857142854,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 5,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.4288095238095238,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 10,
+        "reranker_model": "bge-v2",
+        "retriever_k": 20
+      },
+      "accuracy": 0.659047619047619,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 5,
+        "reranker_model": "bge-v2",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6942857142857143,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 20
+      },
+      "accuracy": 0.5333333333333334,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 3
+      },
+      "accuracy": 0.44000000000000006,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 1,
+        "reranker_model": "bge-v2",
+        "retriever_k": 5
+      },
+      "accuracy": 0.659047619047619,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 3,
+        "reranker_model": "bge-base",
+        "retriever_k": 10
+      },
+      "accuracy": 0.4886666666666667,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 20
+      },
+      "accuracy": 0.38722222222222225,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.64,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 5,
+        "reranker_model": "ms-marco",
+        "retriever_k": 20
+      },
+      "accuracy": 0.3638095238095238,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 1,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.559047619047619,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 3,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6805079365079365,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 10,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.7062857142857143,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 3,
+        "reranker_model": "bge-base",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6257142857142857,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6689523809523809,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 5,
+        "reranker_model": "bge-base",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6422857142857142,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 10,
+        "reranker_model": "bge-v2",
+        "retriever_k": 20
+      },
+      "accuracy": 0.48,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 10,
+        "reranker_model": "bge-base",
+        "retriever_k": 20
+      },
+      "accuracy": 0.6717460317460318,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 3
+      },
+      "accuracy": 0.6289523809523809,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 5
+      },
+      "accuracy": 0.5574603174603174,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 10,
+        "reranker_model": "bge-v2",
+        "retriever_k": 20
+      },
+      "accuracy": 0.6262857142857142,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 3
+      },
+      "accuracy": 0.4333333333333333,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 3,
+        "reranker_model": "bge-base",
+        "retriever_k": 20
+      },
+      "accuracy": 0.49714285714285716,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 1,
+        "reranker_model": "bge-base",
+        "retriever_k": 5
+      },
+      "accuracy": 0.4333333333333333,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 10,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6246031746031746,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 5,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6496031746031746,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 20
+      },
+      "accuracy": 0.54,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 5
+      },
+      "accuracy": 0.54,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 1,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.659047619047619,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6742857142857143,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 1,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.7222857142857143,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 3,
+        "reranker_model": "bge-base",
+        "retriever_k": 10
+      },
+      "accuracy": 0.45,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 5
+      },
+      "accuracy": 0.7178412698412698,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 3
+      },
+      "accuracy": 0.6257142857142857,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 5,
+        "reranker_model": "ms-marco",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6542857142857144,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 5,
+        "reranker_model": "bge-base",
+        "retriever_k": 10
+      },
+      "accuracy": 0.5902857142857143,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 5,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.7071746031746032,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 5,
+        "reranker_model": "ms-marco",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6146031746031746,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 10,
+        "reranker_model": "bge-v2",
+        "retriever_k": 20
+      },
+      "accuracy": 0.5246031746031746,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 5,
+        "reranker_model": "bge-base",
+        "retriever_k": 20
+      },
+      "accuracy": 0.6090476190476191,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 3,
+        "reranker_model": "bge-base",
+        "retriever_k": 5
+      },
+      "accuracy": 0.5683809523809524,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 10,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6246031746031746,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 20
+      },
+      "accuracy": 0.5574603174603174,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.54,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 1,
+        "reranker_model": "bge-v2",
+        "retriever_k": 20
+      },
+      "accuracy": 0.659047619047619,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 3,
+        "reranker_model": "bge-base",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6466666666666667,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 5,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.720952380952381,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 1,
+        "reranker_model": "bge-v2",
+        "retriever_k": 20
+      },
+      "accuracy": 0.708952380952381,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.7060317460317461,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 5,
+        "reranker_model": "ms-marco",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6458412698412698,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 10,
+        "reranker_model": "bge-base",
+        "retriever_k": 20
+      },
+      "accuracy": 0.6690476190476191,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 10,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6369523809523809,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 20
+      },
+      "accuracy": 0.5304761904761905,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.5860317460317461,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 1,
+        "reranker_model": "bge-v2",
+        "retriever_k": 20
+      },
+      "accuracy": 0.7142857142857143,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 5,
+        "reranker_model": "bge-base",
+        "retriever_k": 10
+      },
+      "accuracy": 0.640952380952381,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 10,
+        "reranker_model": "bge-base",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6542857142857141,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 5,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6942857142857142,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 10,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.7062857142857143,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6796190476190475,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 5,
+        "reranker_model": "ms-marco",
+        "retriever_k": 5
+      },
+      "accuracy": 0.659047619047619,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 10,
+        "reranker_model": "bge-base",
+        "retriever_k": 10
+      },
+      "accuracy": 0.65,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 5,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6690476190476191,
+      "status": "infeasible"
+    }
+  ],
+  "anytime_trace": [
+    [
+      260,
+      0
+    ],
+    [
+      260,
+      0
+    ],
+    [
+      260,
+      0
+    ],
+    [
+      260,
+      0
+    ],
+    [
+      260,
+      0
+    ],
+    [
+      260,
+      0
+    ],
+    [
+      260,
+      0
+    ],
+    [
+      260,
+      0
+    ],
+    [
+      260,
+      0
+    ],
+    [
+      260,
+      0
+    ],
+    [
+      260,
+      0
+    ],
+    [
+      260,
+      0
+    ],
+    [
+      260,
+      0
+    ],
+    [
+      260,
+      0
+    ],
+    [
+      260,
+      0
+    ],
+    [
+      260,
+      0
+    ],
+    [
+      260,
+      0
+    ],
+    [
+      260,
+      0
+    ],
+    [
+      260,
+      0
+    ],
+    [
+      260,
+      0
+    ],
+    [
+      260,
+      0
+    ],
+    [
+      260,
+      0
+    ],
+    [
+      260,
+      0
+    ],
+    [
+      260,
+      0
+    ],
+    [
+      260,
+      0
+    ],
+    [
+      260,
+      0
+    ],
+    [
+      275,
+      0
+    ],
+    [
+      290,
+      0
+    ],
+    [
+      305,
+      0
+    ],
+    [
+      320,
+      0
+    ],
+    [
+      335,
+      0
+    ],
+    [
+      350,
+      0
+    ],
+    [
+      365,
+      0
+    ],
+    [
+      380,
+      0
+    ],
+    [
+      395,
+      0
+    ],
+    [
+      410,
+      0
+    ],
+    [
+      420,
+      0
+    ],
+    [
+      430,
+      0
+    ],
+    [
+      440,
+      0
+    ],
+    [
+      450,
+      0
+    ],
+    [
+      460,
+      0
+    ],
+    [
+      470,
+      0
+    ],
+    [
+      480,
+      0
+    ],
+    [
+      490,
+      0
+    ],
+    [
+      500,
+      0
+    ],
+    [
+      510,
+      0
+    ],
+    [
+      520,
+      0
+    ],
+    [
+      530,
+      0
+    ],
+    [
+      545,
+      0
+    ],
+    [
+      560,
+      0
+    ],
+    [
+      575,
+      0
+    ],
+    [
+      585,
+      0
+    ],
+    [
+      595,
+      0
+    ],
+    [
+      605,
+      0
+    ],
+    [
+      615,
+      0
+    ],
+    [
+      625,
+      0
+    ],
+    [
+      635,
+      0
+    ],
+    [
+      645,
+      0
+    ],
+    [
+      655,
+      0
+    ],
+    [
+      665,
+      0
+    ],
+    [
+      675,
+      0
+    ],
+    [
+      685,
+      0
+    ],
+    [
+      695,
+      0
+    ],
+    [
+      710,
+      0
+    ],
+    [
+      725,
+      0
+    ],
+    [
+      740,
+      0
+    ],
+    [
+      755,
+      0
+    ],
+    [
+      765,
+      0
+    ],
+    [
+      775,
+      0
+    ],
+    [
+      785,
+      0
+    ],
+    [
+      795,
+      0
+    ],
+    [
+      805,
+      0
+    ],
+    [
+      815,
+      0
+    ],
+    [
+      825,
+      0
+    ],
+    [
+      835,
+      0
+    ],
+    [
+      845,
+      0
+    ],
+    [
+      855,
+      0
+    ],
+    [
+      870,
+      0
+    ],
+    [
+      885,
+      0
+    ],
+    [
+      900,
+      0
+    ],
+    [
+      915,
+      0
+    ],
+    [
+      930,
+      0
+    ],
+    [
+      945,
+      0
+    ],
+    [
+      960,
+      0
+    ],
+    [
+      970,
+      0
+    ],
+    [
+      980,
+      0
+    ],
+    [
+      995,
+      0
+    ],
+    [
+      1010,
+      0
+    ],
+    [
+      1020,
+      0
+    ],
+    [
+      1030,
+      0
+    ],
+    [
+      1040,
+      0
+    ],
+    [
+      1050,
+      0
+    ],
+    [
+      1065,
+      0
+    ],
+    [
+      1080,
+      0
+    ],
+    [
+      1090,
+      0
+    ]
+  ],
+  "feasible_graph": {
+    "nodes": 0,
+    "edges": 0
+  },
+  "resource_stats": {
+    "duration_sec": 632.6549668312073,
+    "sample_count": 126,
+    "gpu_mem_pytorch_peak_mb": 2682.13623046875,
+    "cpu_avg_pct": 7.063492063492062,
+    "cpu_max_pct": 9.9,
+    "ram_avg_mb": 11575.492776537698,
+    "ram_max_mb": 12881.73828125,
+    "proc_rss_avg_mb": 1717.8242807539682,
+    "proc_rss_max_mb": 2246.1953125
+  },
+  "experiment": {
+    "method": "compass",
+    "n_samples": 100,
+    "slo": 0.9,
+    "duration_sec": 631.9260542392731,
+    "timestamp": "2025-12-20T23:45:27.959886"
+  }
+}

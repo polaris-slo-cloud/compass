@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: "Compass: Optimizing Compound AI Workflows for Dynamic Adaptation"
+message: "If you use this software, please cite the paper."
+type: software
+authors:
+  - family-names: Gravara
+    given-names: Milos
+    affiliation: "Distributed Systems Group, TU Wien"
+    email: milos.gravara@tuwien.ac.at
+  - family-names: Herrera
+    given-names: "Juan Luis"
+    affiliation: "Distributed Systems Group, TU Wien"
+  - family-names: Nastic
+    given-names: Stefan
+    affiliation: "Distributed Systems Group, TU Wien"
+preferred-citation:
+  type: conference-paper
+  title: "Compass: Optimizing Compound AI Workflows for Dynamic Adaptation"
+  authors:
+    - family-names: Gravara
+      given-names: Milos
+    - family-names: Herrera
+      given-names: "Juan Luis"
+    - family-names: Nastic
+      given-names: Stefan
+  conference:
+    name: "IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGrid)"
+    city: "Sydney"
+    country: "AU"
+  year: 2026

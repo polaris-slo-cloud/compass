@@ -1,0 +1,2924 @@
+{
+  "slo": 0.7,
+  "feasible_count": 324,
+  "sample_evals": 37680,
+  "feasible_configs": [
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.776721499972277
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7745998167756192
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7728639108686606
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7702423454351053
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7569339767090963
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7981318809954471
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7198539616948709
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7618235922355471
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7725102237273573
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.1,
+        "verifier_model": "none",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.779899502662243
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7828279735585011
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7952467785921297
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7133038325311053
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7399279861552589
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7688379236799726
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7606778447339946
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7652685781320033
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.785689160089937
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7972190404689701
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7740724540111498
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7787326479152431
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7734839085039772
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.775542442331881
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7541760232059276
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.3,
+        "verifier_model": "none",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7370755110785016
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.77598506552094
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.74709332957595
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7880243501925495
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7674501125457713
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7808940610716276
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.2,
+        "verifier_model": "none",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7107627107740744
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7734517896565393
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7666848464002772
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7965032211083237
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7735214920528389
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7695099287224959
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7697418929301442
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.768241165111275
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7685581505549208
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.755911494539485
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7774112920559234
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7548097087107783
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7520421888053468
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7554956475491237
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7429862467527469
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7417400603977441
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7721229867483737
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7983295977984897
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.8006158525845916
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7900983312118971
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.8123306720352494
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7437087357087357
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7233395695213878
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7166758140849052
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7210445362718092
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7497100598528971
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7629668706219509
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7774843243990586
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7612509503818258
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7888504406185899
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7729702678404731
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7677902189483177
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7824344296932069
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7547009517072353
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7824040250762404
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.8159308508129912
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.1,
+        "verifier_model": "none",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7794878411536448
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.15,
+        "verifier_model": "none",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7830205028741523
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.1,
+        "verifier_model": "none",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7487758041423114
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7838162085986281
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7930255128471196
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7984848399631624
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.77392550103566
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7931962386161863
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7999965152067742
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7838364603749933
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7199143356643357
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7091693886921159
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7142129234401962
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7123947416220143
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.724556413283686
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7087337561428471
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7396568780298728
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7542032146481907
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7379379837334384
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7234136757479004
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7399560312096197
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7384901871121967
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7880803792807791
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7770744054166735
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7794773081938858
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7646158777520443
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.4,
+        "verifier_model": "none",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.711319919979011
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7494566681168848
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7515537404675977
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7790070491264401
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7644317055799148
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7537621300268359
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7891644469143765
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7654912091643038
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7505719923351504
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7672677601094462
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.8114306334504852
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7867905971948119
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7909398629240002
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7871984191810144
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.781941327480535
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7912371604456462
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7761956703305383
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7728099530445786
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7830896228059189
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7735295989660965
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.3,
+        "verifier_model": "none",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7371626322906227
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7760431452831185
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7476628598674054
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7888454871949117
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7556941991070194
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7402184028093122
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.767921482292296
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.4,
+        "verifier_model": "none",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7121532533123444
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.25,
+        "verifier_model": "none",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7504263901620881
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7496903145170808
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7893283440728206
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7245822889231981
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.800321182089114
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7839706769799298
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7676153961434007
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.25,
+        "verifier_model": "none",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.701283634294998
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7532637827936521
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.767177385273044
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.8106599780718988
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7823665917063194
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.15,
+        "verifier_model": "none",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7292459114141296
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7814940046063539
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7742185011017885
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7935527317362953
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.2,
+        "verifier_model": "none",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7536093285025609
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.2,
+        "verifier_model": "none",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7107627107740744
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.2,
+        "verifier_model": "none",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7057424209777152
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7754994331239722
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7761098752380433
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.790312042135867
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7675275525965529
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.25,
+        "verifier_model": "none",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7026039806153441
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.77665139021058
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7694101652366148
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7671831458132823
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.753862367040034
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7477011926279306
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7556576868029866
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7778464734558199
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7390108956699867
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7886945164956292
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7565581863331653
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7422345508847408
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7401837299658155
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7698846991069846
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7757187230476
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7529910555209248
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7411459006952955
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7411932120909396
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.735635500565982
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7293379166881842
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7562853303114
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7501067466401692
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7900258117856518
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.8020670315770585
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7973054334979324
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.8141291905395637
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7877583001311893
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.814398519992259
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.2,
+        "verifier_model": "none",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.757588784718859
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.8070220372193307
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7368397915216098
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7461848984348985
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.4,
+        "verifier_model": "none",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.708113308408763
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7450959061734465
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.768017998193132
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7199143356643357
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7242486604304788
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7236473223745952
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7133744008516736
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7100269730269732
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7492671906774778
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7483632600317093
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7836555753640612
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7635064067691073
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7458789779738979
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.25,
+        "verifier_model": "none",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7430387773248737
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7836727812984418
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7927975823050503
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7953736034502249
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.755212929910256
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7474692992687646
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.8010350158930909
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.8064882238938076
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.8170918971396449
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.8461518347281947
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.1,
+        "verifier_model": "none",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7483859193175841
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.1,
+        "verifier_model": "none",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7775689259426193
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.15,
+        "verifier_model": "none",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7825280221847349
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.15,
+        "verifier_model": "none",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7317978094040346
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.2,
+        "verifier_model": "none",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7592834339165975
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7989977270566304
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7827135715321879
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7973082650272704
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.803324407315789
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7927835741765216
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7556891556351267
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7936632018979425
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7897688580494193
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.8080950817027167
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.8035713235540226
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7929021512694594
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7650539253527222
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7164198553971282
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7410080941043511
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7202390109890112
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.709098681621409
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7082134002361277
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.729012191907914
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7254655041927769
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7092041191132101
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7136767929040657
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7078794992885902
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7381866815596763
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7503719405965396
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7350775786898782
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.751976583225387
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7379379837334384
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7246755250097496
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7224093532729897
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7410462642089436
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7392993239677733
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7868439126404732
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7931024479467141
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7890817411766328
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7840360236689747
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7691956605486019
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7483008913483864
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.4,
+        "verifier_model": "none",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7122759084349994
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.3,
+        "verifier_model": "none",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7324176051221507
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7843080187438786
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.8125957429805355
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.8483491755631127
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7434029706182111
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7373704803811756
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7553291607817179
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7747848387500794
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.8043372965121854
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.8055911237623126
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7806830886822504
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.3,
+        "verifier_model": "none",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7364038966084421
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7704779132780472
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7471141913641914
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.4,
+        "verifier_model": "none",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7122052013642924
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.25,
+        "verifier_model": "none",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.749852540808827
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7249521236339419
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7389710992091376
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7197300754800757
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.25,
+        "verifier_model": "none",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7024512167125805
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7741464271187113
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7253281074985621
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.25,
+        "verifier_model": "none",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7451314554429529
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7533403082165044
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.25,
+        "verifier_model": "none",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.701283634294998
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7410080941043511
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.15,
+        "verifier_model": "none",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7766129624192071
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.8085906168035956
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.8032615542745504
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.775177067425886
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7961037420627445
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.15,
+        "verifier_model": "none",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7291326913009095
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.15,
+        "verifier_model": "none",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7232838513239583
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.1,
+        "verifier_model": "none",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7478771226967517
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7875089451112096
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7964960871427982
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7876295345128219
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.2,
+        "verifier_model": "none",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7516101453507872
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.2,
+        "verifier_model": "none",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7119289813721632
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7784901954358445
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7876726317628233
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7485038306909965
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7177710042482771
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.8051624201176081
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7351190879827244
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7282411729684458
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.75537901910689
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.2,
+        "verifier_model": "none",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7583039760665864
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.25,
+        "verifier_model": "none",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7491177469292443
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.15,
+        "verifier_model": "none",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7800325673842665
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.8125581828998842
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7341046504001051
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7365908026910702
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7494628496874486
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.3,
+        "verifier_model": "none",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.729529472458617
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7698058110932443
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7164198553971282
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7081409045499955
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.702822707595435
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7517162454301493
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7316014110666518
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.25,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7411827594802546
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7997426750410627
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.1,
+        "verifier_model": "none",
+        "nms_threshold": 0.5
+      },
+      "accuracy": 0.7476523104719394
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.15,
+        "verifier_model": "none",
+        "nms_threshold": 0.6
+      },
+      "accuracy": 0.7305024803369665
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.1,
+        "verifier_model": "none",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7741723776310511
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.2,
+        "verifier_model": "none",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7116632698109971
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.15,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.789968307386824
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.2,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7637808031814012
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7084788469106651
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7275749200294657
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7095439913621732
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.45
+      },
+      "accuracy": 0.7309375737156486
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7244033264715083
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7187329463465828
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8l",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7965231749039462
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.5,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.7
+      },
+      "accuracy": 0.7171720930584569
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.15,
+        "verifier_model": "none",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7720445078008558
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.1,
+        "verifier_model": "yolov8x",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.8023652536378786
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.1,
+        "verifier_model": "none",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7408898321898205
+    },
+    {
+      "config": {
+        "detector_model": "yolov8s",
+        "conf_threshold": 0.4,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7218003410730683
+    },
+    {
+      "config": {
+        "detector_model": "yolov8n",
+        "conf_threshold": 0.3,
+        "verifier_model": "yolov8m",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7280349473758565
+    },
+    {
+      "config": {
+        "detector_model": "yolov8m",
+        "conf_threshold": 0.1,
+        "verifier_model": "none",
+        "nms_threshold": 0.3
+      },
+      "accuracy": 0.7684228869974169
+    }
+  ],
+  "time_sec": 353.0143358707428
+}

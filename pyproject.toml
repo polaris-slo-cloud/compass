@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "compass"
+version = "0.1.0"
+description = "Optimizing Compound AI workflows for dynamic adaptation: COMPASS-V offline search + Elastico online controller."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Milos Gravara", email = "milos.gravara@tuwien.ac.at" },
+    { name = "Juan Luis Herrera" },
+    { name = "Stefan Nastic" },
+]
+keywords = ["compound-ai", "rag", "configuration-search", "runtime-adaptation", "slo"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.11",
+    "tqdm>=4.66",
+    "matplotlib>=3.7",
+    "requests>=2.31",
+]
+
+[project.optional-dependencies]
+rag = [
+    "faiss-cpu>=1.7",
+    "sentence-transformers>=2.7",
+    "langchain>=0.2",
+    "langchain-core>=0.2",
+    "langchain-community>=0.2",
+    "langchain-huggingface>=0.0.3",
+    "langchain-ollama>=0.1.3",
+]
+vision = [
+    "ultralytics>=8.2",
+    "torch>=2.1",
+]
+all = [
+    "compass[rag]",
+    "compass[vision]",
+]
+
+[project.urls]
+Paper = "https://example.org/compass-ccgrid26"
+Repository = "https://github.com/distributed-systems-tuwien/compass"
+
+[tool.setuptools.packages.find]
+include = ["compass*", "workflows*"]

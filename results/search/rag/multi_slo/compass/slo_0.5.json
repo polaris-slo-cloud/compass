@@ -1,0 +1,7124 @@
+{
+  "metadata": {
+    "method": "compass",
+    "total_configs": 234,
+    "total_evaluated": 234,
+    "feasible_count": 191,
+    "best_accuracy": 0.6884761904761905,
+    "best_config": {
+      "generator_model": "gemma3:12b",
+      "retriever_k": 5,
+      "reranker_k": 3,
+      "reranker_model": "ms-marco"
+    },
+    "total_time_sec": 4784.884752988815,
+    "sample_evals": 15885
+  },
+  "feasible_configs": [
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 5,
+        "reranker_k": 3,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6884761904761905
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "retriever_k": 10,
+        "reranker_k": 5,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.5045714285714286
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 20,
+        "reranker_k": 10,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.765142857142857
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 5,
+        "reranker_k": 5,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.8357142857142857
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 20,
+        "reranker_k": 1,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.7161702741702741
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 3,
+        "reranker_k": 1,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6817575757575759
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 5,
+        "reranker_k": 1,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7064761904761905
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 10,
+        "reranker_k": 3,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.5419102564102565
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "retriever_k": 20,
+        "reranker_k": 3,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6066031746031746
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 10,
+        "reranker_k": 1,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6846666666666665
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "retriever_k": 20,
+        "reranker_k": 5,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.5038174603174603
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 10,
+        "reranker_k": 1,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.6687417027417026
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 10,
+        "reranker_k": 3,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7102539682539681
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 10,
+        "reranker_k": 10,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.8357142857142857
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 5,
+        "reranker_k": 3,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.5624285714285714
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 5,
+        "reranker_k": 3,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6978095238095239
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 5,
+        "reranker_k": 5,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.7217619047619047
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 20,
+        "reranker_k": 10,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.6293571428571428
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 20,
+        "reranker_k": 10,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.7056825396825396
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 3,
+        "reranker_k": 3,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6644761904761904
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 5,
+        "reranker_k": 1,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6681587301587301
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 20,
+        "reranker_k": 10,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7364761904761905
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 3,
+        "reranker_k": 1,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.5933131313131313
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 5,
+        "reranker_k": 5,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.7218095238095238
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 5,
+        "reranker_k": 3,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7084761904761905
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 10,
+        "reranker_k": 5,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.8357142857142857
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 5,
+        "reranker_k": 5,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7451428571428571
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 10,
+        "reranker_k": 10,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.7564761904761904
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 10,
+        "reranker_k": 10,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7351428571428572
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 10,
+        "reranker_k": 5,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.8357142857142857
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 20,
+        "reranker_k": 5,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7569523809523809
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 10,
+        "reranker_k": 5,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7538095238095237
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 10,
+        "reranker_k": 3,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.8357142857142857
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 5,
+        "reranker_k": 3,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.6832380952380952
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 5,
+        "reranker_k": 3,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6931428571428572
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 10,
+        "reranker_k": 3,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.8357142857142857
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 3,
+        "reranker_k": 3,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6784761904761905
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 5,
+        "reranker_k": 5,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.8357142857142857
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 5,
+        "reranker_k": 1,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6646666666666665
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 20,
+        "reranker_k": 10,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.7504761904761905
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 20,
+        "reranker_k": 5,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7804761904761905
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 20,
+        "reranker_k": 10,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7068730158730158
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 10,
+        "reranker_k": 1,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7398095238095237
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 3,
+        "reranker_k": 1,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7064761904761905
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 5,
+        "reranker_k": 1,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7018095238095238
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 5,
+        "reranker_k": 1,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.6795873015873015
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 5,
+        "reranker_k": 3,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.6931428571428572
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 10,
+        "reranker_k": 1,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6740952380952381
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 20,
+        "reranker_k": 1,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.7646666666666665
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 10,
+        "reranker_k": 3,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.5244444444444444
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 20,
+        "reranker_k": 3,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7418412698412697
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 5,
+        "reranker_k": 3,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7075873015873014
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 10,
+        "reranker_k": 5,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7369206349206349
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 10,
+        "reranker_k": 1,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7329206349206349
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 10,
+        "reranker_k": 3,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7284761904761905
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 10,
+        "reranker_k": 3,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7395873015873016
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 5,
+        "reranker_k": 3,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.6533912753912753
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 5,
+        "reranker_k": 5,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6679206349206349
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 5,
+        "reranker_k": 1,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6673333333333333
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 5,
+        "reranker_k": 3,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.8946031746031746
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "retriever_k": 5,
+        "reranker_k": 3,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.5505
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 10,
+        "reranker_k": 3,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.7518095238095238
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 10,
+        "reranker_k": 10,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.693575036075036
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 20,
+        "reranker_k": 10,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.7218095238095239
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 20,
+        "reranker_k": 5,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.5566269841269841
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 3,
+        "reranker_k": 3,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.6675238095238094
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 3,
+        "reranker_k": 3,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.8946031746031746
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "retriever_k": 3,
+        "reranker_k": 3,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.5046031746031745
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 5,
+        "reranker_k": 1,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6607619047619047
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 10,
+        "reranker_k": 1,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6814920634920635
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 3,
+        "reranker_k": 1,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6805036075036075
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 20,
+        "reranker_k": 10,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.7804761904761903
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 20,
+        "reranker_k": 5,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.5832380952380952
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 10,
+        "reranker_k": 3,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.5395909090909091
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 10,
+        "reranker_k": 5,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.6395054749172396
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 10,
+        "reranker_k": 1,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.8357142857142857
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 20,
+        "reranker_k": 3,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7476190476190476
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 10,
+        "reranker_k": 10,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.6649206349206349
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "retriever_k": 20,
+        "reranker_k": 5,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.5357380952380952
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "retriever_k": 5,
+        "reranker_k": 5,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.5058174603174603
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 10,
+        "reranker_k": 5,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7340512265512266
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "retriever_k": 10,
+        "reranker_k": 3,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.6100966810966812
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 20,
+        "reranker_k": 1,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.7673333333333333
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 10,
+        "reranker_k": 1,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6711702741702742
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 20,
+        "reranker_k": 3,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6721269841269841
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "retriever_k": 3,
+        "reranker_k": 1,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6113333333333333
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 5,
+        "reranker_k": 3,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.6314432234432235
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 20,
+        "reranker_k": 3,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.7918095238095237
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "retriever_k": 10,
+        "reranker_k": 3,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6037460317460318
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "retriever_k": 20,
+        "reranker_k": 1,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6593333333333332
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 20,
+        "reranker_k": 5,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.782920634920635
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 10,
+        "reranker_k": 1,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7222857142857143
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 10,
+        "reranker_k": 3,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.6293412698412698
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 20,
+        "reranker_k": 1,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7037417027417027
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 5,
+        "reranker_k": 1,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.6431861471861471
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 5,
+        "reranker_k": 3,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.6229761904761905
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 5,
+        "reranker_k": 5,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.5607698412698412
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 3,
+        "reranker_k": 3,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.5714603174603174
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 5,
+        "reranker_k": 5,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.6655873015873016
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 5,
+        "reranker_k": 5,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.682126984126984
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 10,
+        "reranker_k": 5,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.6641142191142191
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 20,
+        "reranker_k": 10,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.5334047619047619
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 20,
+        "reranker_k": 10,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7619047619047619
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 20,
+        "reranker_k": 5,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.6079862914862914
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 10,
+        "reranker_k": 10,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.6232698412698413
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 3,
+        "reranker_k": 3,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6031269841269842
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 5,
+        "reranker_k": 1,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6361702741702742
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 5,
+        "reranker_k": 5,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.7184761904761904
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 3,
+        "reranker_k": 3,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.6884761904761905
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 5,
+        "reranker_k": 5,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.6629206349206349
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 10,
+        "reranker_k": 10,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.7238095238095237
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 10,
+        "reranker_k": 10,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.6956825396825396
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 10,
+        "reranker_k": 5,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.720952380952381
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 20,
+        "reranker_k": 3,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.8357142857142857
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 10,
+        "reranker_k": 3,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.7048095238095238
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 5,
+        "reranker_k": 5,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.7131428571428572
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 5,
+        "reranker_k": 3,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.634515873015873
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 5,
+        "reranker_k": 5,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6862539682539682
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 10,
+        "reranker_k": 3,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.8650793650793652
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 3,
+        "reranker_k": 3,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.6855873015873014
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 3,
+        "reranker_k": 3,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6731428571428572
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 20,
+        "reranker_k": 1,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.8357142857142857
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 20,
+        "reranker_k": 5,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7202222222222222
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 20,
+        "reranker_k": 1,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7929206349206349
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 20,
+        "reranker_k": 3,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7884761904761904
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 20,
+        "reranker_k": 3,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7929206349206349
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 20,
+        "reranker_k": 3,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.5050909090909091
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 20,
+        "reranker_k": 5,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.7476190476190476
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 20,
+        "reranker_k": 3,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.7196190476190475
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 20,
+        "reranker_k": 3,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.8650793650793652
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 10,
+        "reranker_k": 5,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.8571428571428571
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 20,
+        "reranker_k": 1,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7798095238095237
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 20,
+        "reranker_k": 5,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.5710909090909091
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 3,
+        "reranker_k": 1,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.7046666666666667
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 3,
+        "reranker_k": 3,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.7084761904761905
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 3,
+        "reranker_k": 3,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.6984761904761905
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 3,
+        "reranker_k": 1,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7018095238095238
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 3,
+        "reranker_k": 1,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.6795873015873015
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 5,
+        "reranker_k": 1,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7244761904761904
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 20,
+        "reranker_k": 1,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.754095238095238
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 5,
+        "reranker_k": 3,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.6905873015873015
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 3,
+        "reranker_k": 3,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.6795873015873015
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 10,
+        "reranker_k": 5,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.6191746031746032
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 10,
+        "reranker_k": 3,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.5372424242424242
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 10,
+        "reranker_k": 5,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.7031428571428572
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "retriever_k": 5,
+        "reranker_k": 5,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.5069126984126985
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "retriever_k": 5,
+        "reranker_k": 1,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6577142857142859
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 10,
+        "reranker_k": 1,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6873333333333334
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 10,
+        "reranker_k": 10,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.6921428571428572
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 20,
+        "reranker_k": 5,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.5585896880896881
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 3,
+        "reranker_k": 3,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.6852007992007992
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 3,
+        "reranker_k": 1,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6876769896769896
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 20,
+        "reranker_k": 1,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.7614920634920636
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 20,
+        "reranker_k": 1,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7222857142857143
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "retriever_k": 10,
+        "reranker_k": 1,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.6856190476190477
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 10,
+        "reranker_k": 5,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.7304761904761904
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 10,
+        "reranker_k": 10,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.8357142857142857
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 20,
+        "reranker_k": 5,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.7773015873015872
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 10,
+        "reranker_k": 10,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.733142857142857
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "retriever_k": 10,
+        "reranker_k": 1,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6910476190476191
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 20,
+        "reranker_k": 10,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.7612539682539682
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 20,
+        "reranker_k": 5,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7495873015873016
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 3,
+        "reranker_k": 3,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.6831098901098901
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 20,
+        "reranker_k": 5,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.7698095238095237
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "retriever_k": 20,
+        "reranker_k": 10,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.7638095238095238
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 10,
+        "reranker_k": 10,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.7371428571428571
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "retriever_k": 20,
+        "reranker_k": 3,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.6510966810966811
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "retriever_k": 5,
+        "reranker_k": 3,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.6024300144300144
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 10,
+        "reranker_k": 3,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6047633477633478
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 20,
+        "reranker_k": 5,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6309047619047619
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 20,
+        "reranker_k": 3,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.6792619047619047
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 10,
+        "reranker_k": 5,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.6024603174603174
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 3,
+        "reranker_k": 1,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.6103290043290044
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 5,
+        "reranker_k": 5,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.6132619047619048
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 3,
+        "reranker_k": 3,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.5990714285714286
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 10,
+        "reranker_k": 5,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.5311746031746032
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 10,
+        "reranker_k": 10,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.5678095238095238
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 20,
+        "reranker_k": 5,
+        "reranker_model": "bge-base"
+      },
+      "accuracy": 0.5059848484848485
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 5,
+        "reranker_k": 3,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6221269841269842
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "retriever_k": 20,
+        "reranker_k": 1,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.6684761904761904
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 3,
+        "reranker_k": 1,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.7244761904761904
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "retriever_k": 5,
+        "reranker_k": 1,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.6349523809523809
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "retriever_k": 10,
+        "reranker_k": 10,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6985714285714286
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "retriever_k": 20,
+        "reranker_k": 10,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.8033015873015873
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "retriever_k": 3,
+        "reranker_k": 3,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.5387936507936508
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "retriever_k": 20,
+        "reranker_k": 10,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.787142857142857
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 10,
+        "reranker_k": 5,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.579484126984127
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 20,
+        "reranker_k": 10,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6169603174603174
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 5,
+        "reranker_k": 5,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.589484126984127
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "retriever_k": 3,
+        "reranker_k": 1,
+        "reranker_model": "bge-v2"
+      },
+      "accuracy": 0.5892380952380952
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "retriever_k": 10,
+        "reranker_k": 10,
+        "reranker_model": "ms-marco"
+      },
+      "accuracy": 0.6231391941391942
+    }
+  ],
+  "all_evaluated": [
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 1,
+        "reranker_model": "bge-base",
+        "retriever_k": 20
+      },
+      "accuracy": 0.2826666666666667,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 1,
+        "reranker_model": "bge-base",
+        "retriever_k": 3
+      },
+      "accuracy": 0.46973051948051947,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6884761904761905,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 10,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.4801594516594516,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 5,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.5045714285714286,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 10,
+        "reranker_model": "bge-v2",
+        "retriever_k": 20
+      },
+      "accuracy": 0.765142857142857,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 5,
+        "reranker_model": "bge-v2",
+        "retriever_k": 5
+      },
+      "accuracy": 0.8357142857142857,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 20
+      },
+      "accuracy": 0.7161702741702741,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 3
+      },
+      "accuracy": 0.6817575757575759,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 1,
+        "reranker_model": "bge-v2",
+        "retriever_k": 5
+      },
+      "accuracy": 0.7064761904761905,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 3,
+        "reranker_model": "bge-base",
+        "retriever_k": 10
+      },
+      "accuracy": 0.5419102564102565,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 20
+      },
+      "accuracy": 0.6066031746031746,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6846666666666665,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 5,
+        "reranker_model": "ms-marco",
+        "retriever_k": 20
+      },
+      "accuracy": 0.5038174603174603,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 1,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6687417027417026,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 3,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.7102539682539681,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 10,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.8357142857142857,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 3,
+        "reranker_model": "bge-base",
+        "retriever_k": 5
+      },
+      "accuracy": 0.5624285714285714,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6978095238095239,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 5,
+        "reranker_model": "bge-base",
+        "retriever_k": 5
+      },
+      "accuracy": 0.7217619047619047,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 10,
+        "reranker_model": "bge-v2",
+        "retriever_k": 20
+      },
+      "accuracy": 0.6293571428571428,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 10,
+        "reranker_model": "bge-base",
+        "retriever_k": 20
+      },
+      "accuracy": 0.7056825396825396,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 3
+      },
+      "accuracy": 0.6644761904761904,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6681587301587301,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 10,
+        "reranker_model": "bge-v2",
+        "retriever_k": 20
+      },
+      "accuracy": 0.7364761904761905,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 3
+      },
+      "accuracy": 0.5933131313131313,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 5,
+        "reranker_model": "bge-base",
+        "retriever_k": 5
+      },
+      "accuracy": 0.7218095238095238,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 3,
+        "reranker_model": "bge-v2",
+        "retriever_k": 5
+      },
+      "accuracy": 0.7084761904761905,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 5,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.8357142857142857,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 5,
+        "reranker_model": "bge-v2",
+        "retriever_k": 5
+      },
+      "accuracy": 0.7451428571428571,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 10,
+        "reranker_model": "bge-base",
+        "retriever_k": 10
+      },
+      "accuracy": 0.7564761904761904,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 10,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.7351428571428572,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 3,
+        "reranker_model": "bge-base",
+        "retriever_k": 20
+      },
+      "accuracy": 0.49112454212454215,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 5,
+        "reranker_model": "bge-base",
+        "retriever_k": 10
+      },
+      "accuracy": 0.8357142857142857,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 5,
+        "reranker_model": "bge-v2",
+        "retriever_k": 20
+      },
+      "accuracy": 0.7569523809523809,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 5,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.7538095238095237,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 3,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.8357142857142857,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 3,
+        "reranker_model": "bge-base",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6832380952380952,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6931428571428572,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.8357142857142857,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 3
+      },
+      "accuracy": 0.6784761904761905,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 5,
+        "reranker_model": "ms-marco",
+        "retriever_k": 5
+      },
+      "accuracy": 0.8357142857142857,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6646666666666665,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 10,
+        "reranker_model": "bge-base",
+        "retriever_k": 20
+      },
+      "accuracy": 0.7504761904761905,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 5,
+        "reranker_model": "bge-v2",
+        "retriever_k": 20
+      },
+      "accuracy": 0.7804761904761905,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 10,
+        "reranker_model": "bge-v2",
+        "retriever_k": 20
+      },
+      "accuracy": 0.7068730158730158,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 1,
+        "reranker_model": "bge-base",
+        "retriever_k": 5
+      },
+      "accuracy": 0.44985281385281384,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 1,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.7398095238095237,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 1,
+        "reranker_model": "bge-v2",
+        "retriever_k": 3
+      },
+      "accuracy": 0.7064761904761905,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 1,
+        "reranker_model": "bge-v2",
+        "retriever_k": 5
+      },
+      "accuracy": 0.7018095238095238,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 1,
+        "reranker_model": "bge-v2",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6795873015873015,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 3,
+        "reranker_model": "bge-v2",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6931428571428572,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 1,
+        "reranker_model": "bge-base",
+        "retriever_k": 10
+      },
+      "accuracy": 0.39138095238095233,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6740952380952381,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 20
+      },
+      "accuracy": 0.7646666666666665,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 3,
+        "reranker_model": "bge-base",
+        "retriever_k": 10
+      },
+      "accuracy": 0.5244444444444444,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 3,
+        "reranker_model": "bge-v2",
+        "retriever_k": 20
+      },
+      "accuracy": 0.7418412698412697,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 3,
+        "reranker_model": "bge-v2",
+        "retriever_k": 5
+      },
+      "accuracy": 0.7075873015873014,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 5,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.7369206349206349,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 1,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.7329206349206349,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 3,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.7284761904761905,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 3,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.7395873015873016,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 3,
+        "reranker_model": "bge-base",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6533912753912753,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 5,
+        "reranker_model": "ms-marco",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6679206349206349,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6673333333333333,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 5
+      },
+      "accuracy": 0.8946031746031746,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 5
+      },
+      "accuracy": 0.5505,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.7518095238095238,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 10,
+        "reranker_model": "bge-base",
+        "retriever_k": 10
+      },
+      "accuracy": 0.693575036075036,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 10,
+        "reranker_model": "bge-base",
+        "retriever_k": 20
+      },
+      "accuracy": 0.7218095238095239,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 5,
+        "reranker_model": "bge-base",
+        "retriever_k": 20
+      },
+      "accuracy": 0.5566269841269841,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 3,
+        "reranker_model": "bge-base",
+        "retriever_k": 3
+      },
+      "accuracy": 0.6675238095238094,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 3
+      },
+      "accuracy": 0.8946031746031746,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 3
+      },
+      "accuracy": 0.5046031746031745,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 1,
+        "reranker_model": "bge-base",
+        "retriever_k": 5
+      },
+      "accuracy": 0.3793607503607504,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6607619047619047,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6814920634920635,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 3
+      },
+      "accuracy": 0.6805036075036075,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 10,
+        "reranker_model": "bge-base",
+        "retriever_k": 20
+      },
+      "accuracy": 0.7804761904761903,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 5,
+        "reranker_model": "bge-base",
+        "retriever_k": 20
+      },
+      "accuracy": 0.5832380952380952,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 3,
+        "reranker_model": "bge-base",
+        "retriever_k": 10
+      },
+      "accuracy": 0.5395909090909091,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 5,
+        "reranker_model": "bge-base",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6395054749172396,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 1,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.8357142857142857,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 3,
+        "reranker_model": "bge-v2",
+        "retriever_k": 20
+      },
+      "accuracy": 0.7476190476190476,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 1,
+        "reranker_model": "bge-base",
+        "retriever_k": 5
+      },
+      "accuracy": 0.43100757575757576,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 10,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6649206349206349,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 5,
+        "reranker_model": "bge-base",
+        "retriever_k": 10
+      },
+      "accuracy": 0.27507936507936503,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 5,
+        "reranker_model": "bge-v2",
+        "retriever_k": 20
+      },
+      "accuracy": 0.5357380952380952,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 5,
+        "reranker_model": "bge-v2",
+        "retriever_k": 5
+      },
+      "accuracy": 0.5058174603174603,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 5,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.7340512265512266,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 3,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6100966810966812,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 1,
+        "reranker_model": "bge-base",
+        "retriever_k": 20
+      },
+      "accuracy": 0.236,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 20
+      },
+      "accuracy": 0.7673333333333333,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6711702741702742,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 20
+      },
+      "accuracy": 0.6721269841269841,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 3
+      },
+      "accuracy": 0.6113333333333333,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 3,
+        "reranker_model": "bge-base",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6314432234432235,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 1,
+        "reranker_model": "bge-base",
+        "retriever_k": 10
+      },
+      "accuracy": 0.3978528138528138,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 20
+      },
+      "accuracy": 0.7918095238095237,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 3,
+        "reranker_model": "bge-base",
+        "retriever_k": 20
+      },
+      "accuracy": 0.25199999999999995,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6037460317460318,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 20
+      },
+      "accuracy": 0.6593333333333332,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 5,
+        "reranker_model": "ms-marco",
+        "retriever_k": 20
+      },
+      "accuracy": 0.782920634920635,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 5,
+        "reranker_model": "bge-base",
+        "retriever_k": 20
+      },
+      "accuracy": 0.29053968253968254,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 5,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.2561904761904762,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 10,
+        "reranker_model": "ms-marco",
+        "retriever_k": 20
+      },
+      "accuracy": 0.47009523809523807,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 1,
+        "reranker_model": "bge-base",
+        "retriever_k": 10
+      },
+      "accuracy": 0.33577777777777773,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 1,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.7222857142857143,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 3,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6293412698412698,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 1,
+        "reranker_model": "bge-v2",
+        "retriever_k": 20
+      },
+      "accuracy": 0.7037417027417027,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 1,
+        "reranker_model": "bge-v2",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6431861471861471,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 3,
+        "reranker_model": "bge-v2",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6229761904761905,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 5,
+        "reranker_model": "bge-base",
+        "retriever_k": 5
+      },
+      "accuracy": 0.5607698412698412,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 1,
+        "reranker_model": "bge-base",
+        "retriever_k": 5
+      },
+      "accuracy": 0.31053968253968256,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 3,
+        "reranker_model": "bge-base",
+        "retriever_k": 10
+      },
+      "accuracy": 0.45569047619047615,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 3,
+        "reranker_model": "bge-base",
+        "retriever_k": 3
+      },
+      "accuracy": 0.5714603174603174,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 5,
+        "reranker_model": "bge-v2",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6655873015873016,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 5,
+        "reranker_model": "bge-base",
+        "retriever_k": 5
+      },
+      "accuracy": 0.682126984126984,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 5,
+        "reranker_model": "bge-base",
+        "retriever_k": 5
+      },
+      "accuracy": 0.431531746031746,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 5,
+        "reranker_model": "bge-base",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6641142191142191,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 10,
+        "reranker_model": "bge-base",
+        "retriever_k": 20
+      },
+      "accuracy": 0.5334047619047619,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 10,
+        "reranker_model": "bge-v2",
+        "retriever_k": 20
+      },
+      "accuracy": 0.7619047619047619,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 5,
+        "reranker_model": "bge-v2",
+        "retriever_k": 20
+      },
+      "accuracy": 0.6079862914862914,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 10,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6232698412698413,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 1,
+        "reranker_model": "bge-base",
+        "retriever_k": 3
+      },
+      "accuracy": 0.3872178932178932,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 3
+      },
+      "accuracy": 0.6031269841269842,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6361702741702742,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 5,
+        "reranker_model": "bge-base",
+        "retriever_k": 5
+      },
+      "accuracy": 0.7184761904761904,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 3,
+        "reranker_model": "bge-v2",
+        "retriever_k": 3
+      },
+      "accuracy": 0.6884761904761905,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 5,
+        "reranker_model": "bge-v2",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6629206349206349,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 10,
+        "reranker_model": "bge-base",
+        "retriever_k": 10
+      },
+      "accuracy": 0.7238095238095237,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 10,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6956825396825396,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 5,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.720952380952381,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 20
+      },
+      "accuracy": 0.8357142857142857,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.7048095238095238,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 5,
+        "reranker_model": "ms-marco",
+        "retriever_k": 5
+      },
+      "accuracy": 0.7131428571428572,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 3,
+        "reranker_model": "bge-base",
+        "retriever_k": 5
+      },
+      "accuracy": 0.634515873015873,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 5,
+        "reranker_model": "ms-marco",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6862539682539682,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.8650793650793652,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 3,
+        "reranker_model": "bge-base",
+        "retriever_k": 3
+      },
+      "accuracy": 0.6855873015873014,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 3
+      },
+      "accuracy": 0.6731428571428572,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 1,
+        "reranker_model": "bge-v2",
+        "retriever_k": 20
+      },
+      "accuracy": 0.8357142857142857,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 3,
+        "reranker_model": "bge-base",
+        "retriever_k": 20
+      },
+      "accuracy": 0.45492424242424234,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 5,
+        "reranker_model": "bge-v2",
+        "retriever_k": 20
+      },
+      "accuracy": 0.7202222222222222,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 1,
+        "reranker_model": "bge-v2",
+        "retriever_k": 20
+      },
+      "accuracy": 0.7929206349206349,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 3,
+        "reranker_model": "bge-v2",
+        "retriever_k": 20
+      },
+      "accuracy": 0.7884761904761904,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 3,
+        "reranker_model": "bge-v2",
+        "retriever_k": 20
+      },
+      "accuracy": 0.7929206349206349,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 3,
+        "reranker_model": "bge-base",
+        "retriever_k": 20
+      },
+      "accuracy": 0.5050909090909091,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 5,
+        "reranker_model": "ms-marco",
+        "retriever_k": 20
+      },
+      "accuracy": 0.7476190476190476,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 20
+      },
+      "accuracy": 0.7196190476190475,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 20
+      },
+      "accuracy": 0.8650793650793652,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 5,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.8571428571428571,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 1,
+        "reranker_model": "bge-base",
+        "retriever_k": 20
+      },
+      "accuracy": 0.3663809523809523,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 1,
+        "reranker_model": "bge-v2",
+        "retriever_k": 20
+      },
+      "accuracy": 0.7798095238095237,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 5,
+        "reranker_model": "bge-base",
+        "retriever_k": 20
+      },
+      "accuracy": 0.5710909090909091,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 3
+      },
+      "accuracy": 0.7046666666666667,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 3,
+        "reranker_model": "bge-base",
+        "retriever_k": 3
+      },
+      "accuracy": 0.7084761904761905,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 1,
+        "reranker_model": "bge-base",
+        "retriever_k": 5
+      },
+      "accuracy": 0.41138095238095235,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 1,
+        "reranker_model": "bge-base",
+        "retriever_k": 3
+      },
+      "accuracy": 0.47785281385281386,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 3,
+        "reranker_model": "bge-v2",
+        "retriever_k": 3
+      },
+      "accuracy": 0.6984761904761905,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 1,
+        "reranker_model": "bge-v2",
+        "retriever_k": 3
+      },
+      "accuracy": 0.7018095238095238,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 1,
+        "reranker_model": "bge-v2",
+        "retriever_k": 3
+      },
+      "accuracy": 0.6795873015873015,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 1,
+        "reranker_model": "bge-v2",
+        "retriever_k": 5
+      },
+      "accuracy": 0.7244761904761904,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 20
+      },
+      "accuracy": 0.754095238095238,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 3,
+        "reranker_model": "bge-v2",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6905873015873015,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 3,
+        "reranker_model": "bge-v2",
+        "retriever_k": 3
+      },
+      "accuracy": 0.6795873015873015,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 5,
+        "reranker_model": "bge-base",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6191746031746032,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 1,
+        "reranker_model": "bge-base",
+        "retriever_k": 10
+      },
+      "accuracy": 0.3765512265512265,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 3,
+        "reranker_model": "bge-base",
+        "retriever_k": 10
+      },
+      "accuracy": 0.5372424242424242,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 5,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.7031428571428572,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 5,
+        "reranker_model": "ms-marco",
+        "retriever_k": 5
+      },
+      "accuracy": 0.5069126984126985,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6577142857142859,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6873333333333334,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 10,
+        "reranker_model": "bge-base",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6921428571428572,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 10,
+        "reranker_model": "bge-base",
+        "retriever_k": 20
+      },
+      "accuracy": 0.3410952380952381,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 5,
+        "reranker_model": "bge-base",
+        "retriever_k": 20
+      },
+      "accuracy": 0.5585896880896881,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 3,
+        "reranker_model": "bge-v2",
+        "retriever_k": 3
+      },
+      "accuracy": 0.6852007992007992,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 3,
+        "reranker_model": "bge-base",
+        "retriever_k": 3
+      },
+      "accuracy": 0.48312698412698407,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 3
+      },
+      "accuracy": 0.6876769896769896,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 20
+      },
+      "accuracy": 0.7614920634920636,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 3,
+        "reranker_model": "bge-base",
+        "retriever_k": 20
+      },
+      "accuracy": 0.39497979797979793,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 1,
+        "reranker_model": "bge-v2",
+        "retriever_k": 20
+      },
+      "accuracy": 0.7222857142857143,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 1,
+        "reranker_model": "bge-base",
+        "retriever_k": 10
+      },
+      "accuracy": 0.41067424242424244,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 1,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6856190476190477,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 5,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.7304761904761904,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 10,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.8357142857142857,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 5,
+        "reranker_model": "ms-marco",
+        "retriever_k": 20
+      },
+      "accuracy": 0.7773015873015872,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 10,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.733142857142857,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 3,
+        "reranker_model": "bge-base",
+        "retriever_k": 5
+      },
+      "accuracy": 0.4667936507936508,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 1,
+        "reranker_model": "bge-base",
+        "retriever_k": 3
+      },
+      "accuracy": 0.41888455988455986,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 1,
+        "reranker_model": "bge-base",
+        "retriever_k": 20
+      },
+      "accuracy": 0.33685714285714285,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 3,
+        "reranker_model": "bge-base",
+        "retriever_k": 20
+      },
+      "accuracy": 0.46979545454545457,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 1,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6910476190476191,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 1,
+        "reranker_model": "bge-base",
+        "retriever_k": 20
+      },
+      "accuracy": 0.23199999999999998,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 10,
+        "reranker_model": "ms-marco",
+        "retriever_k": 20
+      },
+      "accuracy": 0.7612539682539682,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 5,
+        "reranker_model": "bge-v2",
+        "retriever_k": 20
+      },
+      "accuracy": 0.7495873015873016,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 10,
+        "reranker_model": "bge-v2",
+        "retriever_k": 20
+      },
+      "accuracy": 0.4440584415584415,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 3,
+        "reranker_model": "bge-base",
+        "retriever_k": 3
+      },
+      "accuracy": 0.6831098901098901,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 5,
+        "reranker_model": "ms-marco",
+        "retriever_k": 20
+      },
+      "accuracy": 0.7698095238095237,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 10,
+        "reranker_model": "ms-marco",
+        "retriever_k": 20
+      },
+      "accuracy": 0.7638095238095238,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 10,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.7371428571428571,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 3,
+        "reranker_model": "bge-v2",
+        "retriever_k": 20
+      },
+      "accuracy": 0.6510966810966811,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 3,
+        "reranker_model": "bge-v2",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6024300144300144,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 3,
+        "reranker_model": "bge-base",
+        "retriever_k": 10
+      },
+      "accuracy": 0.3943888888888889,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6047633477633478,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 5,
+        "reranker_model": "ms-marco",
+        "retriever_k": 20
+      },
+      "accuracy": 0.6309047619047619,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 1,
+        "reranker_model": "bge-base",
+        "retriever_k": 3
+      },
+      "accuracy": 0.3775714285714285,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 3,
+        "reranker_model": "bge-v2",
+        "retriever_k": 20
+      },
+      "accuracy": 0.6792619047619047,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 5,
+        "reranker_model": "bge-v2",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6024603174603174,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 1,
+        "reranker_model": "bge-v2",
+        "retriever_k": 3
+      },
+      "accuracy": 0.6103290043290044,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 5,
+        "reranker_model": "bge-v2",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6132619047619048,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 3,
+        "reranker_model": "bge-v2",
+        "retriever_k": 3
+      },
+      "accuracy": 0.5990714285714286,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 5,
+        "reranker_model": "bge-base",
+        "retriever_k": 10
+      },
+      "accuracy": 0.5311746031746032,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 10,
+        "reranker_model": "bge-base",
+        "retriever_k": 10
+      },
+      "accuracy": 0.5678095238095238,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 5,
+        "reranker_model": "bge-base",
+        "retriever_k": 20
+      },
+      "accuracy": 0.5059848484848485,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 3,
+        "reranker_model": "ms-marco",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6221269841269842,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 1,
+        "reranker_model": "bge-base",
+        "retriever_k": 20
+      },
+      "accuracy": 0.27441269841269844,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 1,
+        "reranker_model": "bge-v2",
+        "retriever_k": 20
+      },
+      "accuracy": 0.6684761904761904,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:12b",
+        "reranker_k": 1,
+        "reranker_model": "bge-base",
+        "retriever_k": 3
+      },
+      "accuracy": 0.4592380952380952,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 1,
+        "reranker_model": "bge-v2",
+        "retriever_k": 3
+      },
+      "accuracy": 0.7244761904761904,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 1,
+        "reranker_model": "bge-v2",
+        "retriever_k": 5
+      },
+      "accuracy": 0.6349523809523809,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:3b",
+        "reranker_k": 10,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6985714285714286,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 10,
+        "reranker_model": "bge-base",
+        "retriever_k": 10
+      },
+      "accuracy": 0.25152380952380954,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:4b",
+        "reranker_k": 10,
+        "reranker_model": "ms-marco",
+        "retriever_k": 20
+      },
+      "accuracy": 0.8033015873015873,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 1,
+        "reranker_model": "bge-base",
+        "retriever_k": 5
+      },
+      "accuracy": 0.308,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 3,
+        "reranker_model": "bge-v2",
+        "retriever_k": 3
+      },
+      "accuracy": 0.5387936507936508,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 1,
+        "reranker_model": "bge-base",
+        "retriever_k": 10
+      },
+      "accuracy": 0.32299999999999995,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.1:8b",
+        "reranker_k": 10,
+        "reranker_model": "ms-marco",
+        "retriever_k": 20
+      },
+      "accuracy": 0.787142857142857,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 5,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.579484126984127,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 10,
+        "reranker_model": "ms-marco",
+        "retriever_k": 20
+      },
+      "accuracy": 0.6169603174603174,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 5,
+        "reranker_model": "ms-marco",
+        "retriever_k": 5
+      },
+      "accuracy": 0.589484126984127,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 1,
+        "reranker_model": "bge-v2",
+        "retriever_k": 3
+      },
+      "accuracy": 0.5892380952380952,
+      "status": "feasible"
+    },
+    {
+      "config": {
+        "generator_model": "gemma3:1b",
+        "reranker_k": 10,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.47659523809523807,
+      "status": "infeasible"
+    },
+    {
+      "config": {
+        "generator_model": "llama3.2:1b",
+        "reranker_k": 10,
+        "reranker_model": "ms-marco",
+        "retriever_k": 10
+      },
+      "accuracy": 0.6231391941391942,
+      "status": "feasible"
+    }
+  ],
+  "anytime_trace": [
+    [
+      260,
+      0
+    ],
+    [
+      260,
+      0
+    ],
+    [
+      260,
+      0
+    ],
+    [
+      260,
+      0
+    ],
+    [
+      260,
+      0
+    ],
+    [
+      260,
+      0
+    ],
+    [
+      260,
+      1
+    ],
+    [
+      260,
+      1
+    ],
+    [
+      260,
+      1
+    ],
+    [
+      260,
+      1
+    ],
+    [
+      260,
+      1
+    ],
+    [
+      260,
+      1
+    ],
+    [
+      260,
+      1
+    ],
+    [
+      260,
+      1
+    ],
+    [
+      260,
+      1
+    ],
+    [
+      260,
+      1
+    ],
+    [
+      260,
+      2
+    ],
+    [
+      260,
+      2
+    ],
+    [
+      260,
+      2
+    ],
+    [
+      260,
+      2
+    ],
+    [
+      260,
+      2
+    ],
+    [
+      260,
+      2
+    ],
+    [
+      260,
+      2
+    ],
+    [
+      260,
+      2
+    ],
+    [
+      260,
+      2
+    ],
+    [
+      260,
+      2
+    ],
+    [
+      275,
+      2
+    ],
+    [
+      290,
+      2
+    ],
+    [
+      305,
+      2
+    ],
+    [
+      320,
+      2
+    ],
+    [
+      335,
+      2
+    ],
+    [
+      350,
+      2
+    ],
+    [
+      365,
+      2
+    ],
+    [
+      380,
+      2
+    ],
+    [
+      395,
+      2
+    ],
+    [
+      410,
+      2
+    ],
+    [
+      425,
+      2
+    ],
+    [
+      440,
+      2
+    ],
+    [
+      455,
+      2
+    ],
+    [
+      470,
+      2
+    ],
+    [
+      485,
+      2
+    ],
+    [
+      500,
+      2
+    ],
+    [
+      515,
+      2
+    ],
+    [
+      530,
+      2
+    ],
+    [
+      545,
+      2
+    ],
+    [
+      560,
+      2
+    ],
+    [
+      575,
+      2
+    ],
+    [
+      590,
+      2
+    ],
+    [
+      605,
+      2
+    ],
+    [
+      620,
+      2
+    ],
+    [
+      630,
+      2
+    ],
+    [
+      640,
+      2
+    ],
+    [
+      650,
+      3
+    ],
+    [
+      660,
+      3
+    ],
+    [
+      670,
+      3
+    ],
+    [
+      680,
+      3
+    ],
+    [
+      705,
+      3
+    ],
+    [
+      730,
+      4
+    ],
+    [
+      755,
+      4
+    ],
+    [
+      780,
+      4
+    ],
+    [
+      805,
+      5
+    ],
+    [
+      830,
+      5
+    ],
+    [
+      855,
+      5
+    ],
+    [
+      880,
+      6
+    ],
+    [
+      905,
+      6
+    ],
+    [
+      930,
+      6
+    ],
+    [
+      955,
+      7
+    ],
+    [
+      980,
+      7
+    ],
+    [
+      1005,
+      7
+    ],
+    [
+      1030,
+      8
+    ],
+    [
+      1055,
+      8
+    ],
+    [
+      1080,
+      9
+    ],
+    [
+      1105,
+      9
+    ],
+    [
+      1130,
+      9
+    ],
+    [
+      1155,
+      10
+    ],
+    [
+      1180,
+      11
+    ],
+    [
+      1205,
+      12
+    ],
+    [
+      1230,
+      13
+    ],
+    [
+      1255,
+      13
+    ],
+    [
+      1270,
+      13
+    ],
+    [
+      1285,
+      13
+    ],
+    [
+      1300,
+      13
+    ],
+    [
+      1315,
+      13
+    ],
+    [
+      1330,
+      13
+    ],
+    [
+      1340,
+      13
+    ],
+    [
+      1350,
+      14
+    ],
+    [
+      1360,
+      14
+    ],
+    [
+      1370,
+      14
+    ],
+    [
+      1380,
+      15
+    ],
+    [
+      1430,
+      15
+    ],
+    [
+      1480,
+      15
+    ],
+    [
+      1530,
+      16
+    ],
+    [
+      1580,
+      17
+    ],
+    [
+      1630,
+      18
+    ],
+    [
+      1680,
+      19
+    ],
+    [
+      1730,
+      20
+    ],
+    [
+      1780,
+      21
+    ],
+    [
+      1830,
+      22
+    ],
+    [
+      1880,
+      23
+    ],
+    [
+      1930,
+      24
+    ],
+    [
+      1980,
+      25
+    ],
+    [
+      2030,
+      26
+    ],
+    [
+      2055,
+      27
+    ],
+    [
+      2080,
+      28
+    ],
+    [
+      2105,
+      29
+    ],
+    [
+      2130,
+      30
+    ],
+    [
+      2155,
+      31
+    ],
+    [
+      2170,
+      31
+    ],
+    [
+      2185,
+      32
+    ],
+    [
+      2200,
+      32
+    ],
+    [
+      2210,
+      32
+    ],
+    [
+      2220,
+      32
+    ],
+    [
+      2230,
+      33
+    ],
+    [
+      2240,
+      33
+    ],
+    [
+      2250,
+      34
+    ],
+    [
+      2260,
+      34
+    ],
+    [
+      2270,
+      34
+    ],
+    [
+      2280,
+      34
+    ],
+    [
+      2290,
+      34
+    ],
+    [
+      2300,
+      34
+    ],
+    [
+      2310,
+      34
+    ],
+    [
+      2320,
+      34
+    ],
+    [
+      2330,
+      34
+    ],
+    [
+      2340,
+      34
+    ],
+    [
+      2350,
+      34
+    ],
+    [
+      2360,
+      34
+    ],
+    [
+      2370,
+      34
+    ],
+    [
+      2380,
+      34
+    ],
+    [
+      2390,
+      34
+    ],
+    [
+      2400,
+      34
+    ],
+    [
+      2410,
+      34
+    ],
+    [
+      2420,
+      34
+    ],
+    [
+      2430,
+      34
+    ],
+    [
+      2440,
+      34
+    ],
+    [
+      2450,
+      34
+    ],
+    [
+      2460,
+      34
+    ],
+    [
+      2470,
+      34
+    ],
+    [
+      2480,
+      34
+    ],
+    [
+      2490,
+      35
+    ],
+    [
+      2500,
+      35
+    ],
+    [
+      2510,
+      35
+    ],
+    [
+      2520,
+      35
+    ],
+    [
+      2530,
+      35
+    ],
+    [
+      2540,
+      35
+    ],
+    [
+      2550,
+      35
+    ],
+    [
+      2560,
+      36
+    ],
+    [
+      2570,
+      36
+    ],
+    [
+      2580,
+      36
+    ],
+    [
+      2590,
+      36
+    ],
+    [
+      2600,
+      36
+    ],
+    [
+      2610,
+      36
+    ],
+    [
+      2620,
+      36
+    ],
+    [
+      2630,
+      36
+    ],
+    [
+      2640,
+      36
+    ],
+    [
+      2650,
+      36
+    ],
+    [
+      2660,
+      37
+    ],
+    [
+      2670,
+      37
+    ],
+    [
+      2695,
+      37
+    ],
+    [
+      2720,
+      38
+    ],
+    [
+      2735,
+      38
+    ],
+    [
+      2750,
+      38
+    ],
+    [
+      2765,
+      38
+    ],
+    [
+      2780,
+      38
+    ],
+    [
+      2795,
+      38
+    ],
+    [
+      2810,
+      38
+    ],
+    [
+      2825,
+      38
+    ],
+    [
+      2840,
+      38
+    ],
+    [
+      2855,
+      38
+    ],
+    [
+      2870,
+      38
+    ],
+    [
+      2885,
+      38
+    ],
+    [
+      2900,
+      38
+    ],
+    [
+      2915,
+      38
+    ],
+    [
+      2930,
+      38
+    ],
+    [
+      2945,
+      38
+    ],
+    [
+      2960,
+      38
+    ],
+    [
+      2975,
+      38
+    ],
+    [
+      2990,
+      39
+    ],
+    [
+      3005,
+      39
+    ],
+    [
+      3020,
+      39
+    ],
+    [
+      3035,
+      39
+    ],
+    [
+      3050,
+      39
+    ],
+    [
+      3065,
+      39
+    ],
+    [
+      3080,
+      39
+    ],
+    [
+      3095,
+      39
+    ],
+    [
+      3110,
+      39
+    ],
+    [
+      3125,
+      39
+    ],
+    [
+      3140,
+      39
+    ],
+    [
+      3155,
+      39
+    ],
+    [
+      3170,
+      39
+    ],
+    [
+      3185,
+      39
+    ],
+    [
+      3200,
+      39
+    ],
+    [
+      3215,
+      39
+    ],
+    [
+      3230,
+      39
+    ],
+    [
+      3245,
+      39
+    ],
+    [
+      3260,
+      39
+    ],
+    [
+      3275,
+      39
+    ],
+    [
+      3290,
+      39
+    ],
+    [
+      3305,
+      39
+    ],
+    [
+      3320,
+      39
+    ],
+    [
+      3335,
+      39
+    ],
+    [
+      3350,
+      40
+    ],
+    [
+      3360,
+      40
+    ],
+    [
+      3370,
+      40
+    ],
+    [
+      3380,
+      40
+    ],
+    [
+      3390,
+      40
+    ],
+    [
+      3400,
+      40
+    ],
+    [
+      3410,
+      40
+    ],
+    [
+      3420,
+      40
+    ],
+    [
+      3430,
+      40
+    ],
+    [
+      3440,
+      40
+    ],
+    [
+      3450,
+      40
+    ],
+    [
+      3460,
+      40
+    ],
+    [
+      3470,
+      40
+    ],
+    [
+      3480,
+      40
+    ],
+    [
+      3490,
+      40
+    ],
+    [
+      3500,
+      40
+    ],
+    [
+      3510,
+      40
+    ],
+    [
+      3520,
+      40
+    ],
+    [
+      3530,
+      40
+    ],
+    [
+      3540,
+      40
+    ],
+    [
+      3550,
+      40
+    ],
+    [
+      3560,
+      40
+    ],
+    [
+      3570,
+      40
+    ],
+    [
+      3580,
+      40
+    ],
+    [
+      3590,
+      40
+    ],
+    [
+      3600,
+      40
+    ],
+    [
+      3610,
+      40
+    ],
+    [
+      3620,
+      40
+    ],
+    [
+      3630,
+      40
+    ],
+    [
+      3640,
+      40
+    ],
+    [
+      3650,
+      40
+    ],
+    [
+      3660,
+      40
+    ],
+    [
+      3670,
+      40
+    ],
+    [
+      3680,
+      40
+    ],
+    [
+      3690,
+      40
+    ],
+    [
+      3700,
+      40
+    ],
+    [
+      3710,
+      40
+    ],
+    [
+      3720,
+      40
+    ],
+    [
+      3730,
+      40
+    ],
+    [
+      3740,
+      40
+    ],
+    [
+      3750,
+      40
+    ],
+    [
+      3760,
+      40
+    ],
+    [
+      3770,
+      40
+    ],
+    [
+      3780,
+      40
+    ],
+    [
+      3790,
+      40
+    ],
+    [
+      3800,
+      40
+    ],
+    [
+      3810,
+      40
+    ],
+    [
+      3820,
+      40
+    ],
+    [
+      3830,
+      40
+    ],
+    [
+      3840,
+      40
+    ],
+    [
+      3850,
+      41
+    ],
+    [
+      3860,
+      41
+    ],
+    [
+      3870,
+      41
+    ],
+    [
+      3880,
+      41
+    ],
+    [
+      3890,
+      41
+    ],
+    [
+      3900,
+      42
+    ],
+    [
+      3910,
+      42
+    ],
+    [
+      3920,
+      42
+    ],
+    [
+      3930,
+      43
+    ],
+    [
+      3980,
+      43
+    ],
+    [
+      4005,
+      43
+    ],
+    [
+      4030,
+      44
+    ],
+    [
+      4055,
+      45
+    ],
+    [
+      4080,
+      46
+    ],
+    [
+      4105,
+      47
+    ],
+    [
+      4130,
+      48
+    ],
+    [
+      4155,
+      49
+    ],
+    [
+      4180,
+      49
+    ],
+    [
+      4205,
+      50
+    ],
+    [
+      4230,
+      51
+    ],
+    [
+      4255,
+      52
+    ],
+    [
+      4280,
+      53
+    ],
+    [
+      4305,
+      54
+    ],
+    [
+      4330,
+      54
+    ],
+    [
+      4355,
+      55
+    ],
+    [
+      4380,
+      56
+    ],
+    [
+      4405,
+      56
+    ],
+    [
+      4430,
+      57
+    ],
+    [
+      4455,
+      58
+    ],
+    [
+      4480,
+      59
+    ],
+    [
+      4505,
+      60
+    ],
+    [
+      4530,
+      61
+    ],
+    [
+      4555,
+      61
+    ],
+    [
+      4580,
+      62
+    ],
+    [
+      4605,
+      63
+    ],
+    [
+      4630,
+      63
+    ],
+    [
+      4655,
+      64
+    ],
+    [
+      4680,
+      64
+    ],
+    [
+      4705,
+      65
+    ],
+    [
+      4730,
+      65
+    ],
+    [
+      4755,
+      66
+    ],
+    [
+      4780,
+      66
+    ],
+    [
+      4805,
+      66
+    ],
+    [
+      4830,
+      67
+    ],
+    [
+      4855,
+      68
+    ],
+    [
+      4880,
+      68
+    ],
+    [
+      4905,
+      69
+    ],
+    [
+      4930,
+      69
+    ],
+    [
+      4955,
+      69
+    ],
+    [
+      4980,
+      69
+    ],
+    [
+      4995,
+      69
+    ],
+    [
+      5010,
+      69
+    ],
+    [
+      5025,
+      69
+    ],
+    [
+      5040,
+      69
+    ],
+    [
+      5055,
+      69
+    ],
+    [
+      5070,
+      69
+    ],
+    [
+      5085,
+      69
+    ],
+    [
+      5100,
+      69
+    ],
+    [
+      5115,
+      69
+    ],
+    [
+      5130,
+      69
+    ],
+    [
+      5145,
+      69
+    ],
+    [
+      5160,
+      69
+    ],
+    [
+      5175,
+      69
+    ],
+    [
+      5190,
+      69
+    ],
+    [
+      5205,
+      69
+    ],
+    [
+      5220,
+      69
+    ],
+    [
+      5235,
+      69
+    ],
+    [
+      5250,
+      69
+    ],
+    [
+      5265,
+      69
+    ],
+    [
+      5280,
+      69
+    ],
+    [
+      5295,
+      69
+    ],
+    [
+      5310,
+      69
+    ],
+    [
+      5325,
+      69
+    ],
+    [
+      5340,
+      70
+    ],
+    [
+      5355,
+      70
+    ],
+    [
+      5370,
+      70
+    ],
+    [
+      5385,
+      70
+    ],
+    [
+      5400,
+      70
+    ],
+    [
+      5415,
+      70
+    ],
+    [
+      5430,
+      70
+    ],
+    [
+      5445,
+      70
+    ],
+    [
+      5460,
+      70
+    ],
+    [
+      5475,
+      70
+    ],
+    [
+      5490,
+      70
+    ],
+    [
+      5505,
+      70
+    ],
+    [
+      5520,
+      70
+    ],
+    [
+      5535,
+      70
+    ],
+    [
+      5550,
+      70
+    ],
+    [
+      5565,
+      70
+    ],
+    [
+      5580,
+      70
+    ],
+    [
+      5595,
+      70
+    ],
+    [
+      5610,
+      70
+    ],
+    [
+      5625,
+      70
+    ],
+    [
+      5640,
+      70
+    ],
+    [
+      5655,
+      70
+    ],
+    [
+      5670,
+      70
+    ],
+    [
+      5685,
+      70
+    ],
+    [
+      5700,
+      70
+    ],
+    [
+      5715,
+      71
+    ],
+    [
+      5730,
+      71
+    ],
+    [
+      5745,
+      71
+    ],
+    [
+      5760,
+      71
+    ],
+    [
+      5775,
+      71
+    ],
+    [
+      5790,
+      71
+    ],
+    [
+      5805,
+      71
+    ],
+    [
+      5815,
+      71
+    ],
+    [
+      5825,
+      71
+    ],
+    [
+      5835,
+      71
+    ],
+    [
+      5845,
+      71
+    ],
+    [
+      5855,
+      71
+    ],
+    [
+      5865,
+      71
+    ],
+    [
+      5875,
+      71
+    ],
+    [
+      5885,
+      71
+    ],
+    [
+      5895,
+      72
+    ],
+    [
+      5905,
+      73
+    ],
+    [
+      5915,
+      73
+    ],
+    [
+      5925,
+      73
+    ],
+    [
+      5975,
+      74
+    ],
+    [
+      6025,
+      74
+    ],
+    [
+      6075,
+      74
+    ],
+    [
+      6125,
+      75
+    ],
+    [
+      6175,
+      76
+    ],
+    [
+      6225,
+      77
+    ],
+    [
+      6275,
+      78
+    ],
+    [
+      6325,
+      79
+    ],
+    [
+      6375,
+      80
+    ],
+    [
+      6425,
+      80
+    ],
+    [
+      6475,
+      81
+    ],
+    [
+      6525,
+      82
+    ],
+    [
+      6575,
+      83
+    ],
+    [
+      6625,
+      84
+    ],
+    [
+      6650,
+      84
+    ],
+    [
+      6675,
+      85
+    ],
+    [
+      6700,
+      85
+    ],
+    [
+      6725,
+      85
+    ],
+    [
+      6750,
+      85
+    ],
+    [
+      6775,
+      85
+    ],
+    [
+      6800,
+      86
+    ],
+    [
+      6825,
+      86
+    ],
+    [
+      6850,
+      86
+    ],
+    [
+      6875,
+      86
+    ],
+    [
+      6900,
+      86
+    ],
+    [
+      6925,
+      86
+    ],
+    [
+      6950,
+      87
+    ],
+    [
+      6975,
+      87
+    ],
+    [
+      7000,
+      88
+    ],
+    [
+      7025,
+      89
+    ],
+    [
+      7050,
+      89
+    ],
+    [
+      7075,
+      89
+    ],
+    [
+      7100,
+      89
+    ],
+    [
+      7125,
+      89
+    ],
+    [
+      7150,
+      89
+    ],
+    [
+      7175,
+      89
+    ],
+    [
+      7200,
+      89
+    ],
+    [
+      7225,
+      89
+    ],
+    [
+      7250,
+      89
+    ],
+    [
+      7275,
+      89
+    ],
+    [
+      7300,
+      89
+    ],
+    [
+      7325,
+      90
+    ],
+    [
+      7350,
+      91
+    ],
+    [
+      7375,
+      91
+    ],
+    [
+      7400,
+      91
+    ],
+    [
+      7425,
+      91
+    ],
+    [
+      7450,
+      92
+    ],
+    [
+      7475,
+      92
+    ],
+    [
+      7500,
+      92
+    ],
+    [
+      7525,
+      92
+    ],
+    [
+      7550,
+      92
+    ],
+    [
+      7575,
+      92
+    ],
+    [
+      7600,
+      93
+    ],
+    [
+      7625,
+      94
+    ],
+    [
+      7650,
+      95
+    ],
+    [
+      7675,
+      96
+    ],
+    [
+      7700,
+      97
+    ],
+    [
+      7725,
+      98
+    ],
+    [
+      7750,
+      99
+    ],
+    [
+      7775,
+      99
+    ],
+    [
+      7800,
+      100
+    ],
+    [
+      7825,
+      101
+    ],
+    [
+      7850,
+      102
+    ],
+    [
+      7865,
+      102
+    ],
+    [
+      7880,
+      103
+    ],
+    [
+      7895,
+      103
+    ],
+    [
+      7910,
+      103
+    ],
+    [
+      7925,
+      103
+    ],
+    [
+      7940,
+      103
+    ],
+    [
+      7955,
+      104
+    ],
+    [
+      7970,
+      105
+    ],
+    [
+      7985,
+      105
+    ],
+    [
+      8000,
+      105
+    ],
+    [
+      8010,
+      105
+    ],
+    [
+      8020,
+      105
+    ],
+    [
+      8030,
+      105
+    ],
+    [
+      8040,
+      105
+    ],
+    [
+      8050,
+      105
+    ],
+    [
+      8060,
+      105
+    ],
+    [
+      8070,
+      105
+    ],
+    [
+      8080,
+      105
+    ],
+    [
+      8090,
+      105
+    ],
+    [
+      8100,
+      105
+    ],
+    [
+      8110,
+      105
+    ],
+    [
+      8120,
+      105
+    ],
+    [
+      8130,
+      105
+    ],
+    [
+      8140,
+      105
+    ],
+    [
+      8150,
+      105
+    ],
+    [
+      8160,
+      105
+    ],
+    [
+      8170,
+      105
+    ],
+    [
+      8180,
+      105
+    ],
+    [
+      8190,
+      105
+    ],
+    [
+      8200,
+      105
+    ],
+    [
+      8210,
+      105
+    ],
+    [
+      8220,
+      105
+    ],
+    [
+      8230,
+      105
+    ],
+    [
+      8240,
+      105
+    ],
+    [
+      8250,
+      105
+    ],
+    [
+      8260,
+      105
+    ],
+    [
+      8270,
+      105
+    ],
+    [
+      8280,
+      105
+    ],
+    [
+      8290,
+      105
+    ],
+    [
+      8300,
+      105
+    ],
+    [
+      8310,
+      105
+    ],
+    [
+      8320,
+      106
+    ],
+    [
+      8330,
+      106
+    ],
+    [
+      8340,
+      106
+    ],
+    [
+      8390,
+      106
+    ],
+    [
+      8440,
+      107
+    ],
+    [
+      8490,
+      108
+    ],
+    [
+      8540,
+      109
+    ],
+    [
+      8590,
+      110
+    ],
+    [
+      8640,
+      111
+    ],
+    [
+      8690,
+      112
+    ],
+    [
+      8740,
+      113
+    ],
+    [
+      8790,
+      114
+    ],
+    [
+      8840,
+      114
+    ],
+    [
+      8890,
+      115
+    ],
+    [
+      8940,
+      115
+    ],
+    [
+      8990,
+      116
+    ],
+    [
+      9040,
+      117
+    ],
+    [
+      9090,
+      118
+    ],
+    [
+      9140,
+      119
+    ],
+    [
+      9190,
+      120
+    ],
+    [
+      9240,
+      120
+    ],
+    [
+      9290,
+      121
+    ],
+    [
+      9340,
+      121
+    ],
+    [
+      9390,
+      122
+    ],
+    [
+      9440,
+      123
+    ],
+    [
+      9490,
+      124
+    ],
+    [
+      9540,
+      125
+    ],
+    [
+      9590,
+      125
+    ],
+    [
+      9640,
+      126
+    ],
+    [
+      9690,
+      127
+    ],
+    [
+      9740,
+      128
+    ],
+    [
+      9765,
+      128
+    ],
+    [
+      9790,
+      129
+    ],
+    [
+      9815,
+      130
+    ],
+    [
+      9840,
+      131
+    ],
+    [
+      9865,
+      131
+    ],
+    [
+      9890,
+      131
+    ],
+    [
+      9915,
+      132
+    ],
+    [
+      9930,
+      132
+    ],
+    [
+      9945,
+      132
+    ],
+    [
+      9960,
+      132
+    ],
+    [
+      9975,
+      132
+    ],
+    [
+      9990,
+      132
+    ],
+    [
+      10005,
+      132
+    ],
+    [
+      10020,
+      132
+    ],
+    [
+      10035,
+      132
+    ],
+    [
+      10050,
+      132
+    ],
+    [
+      10065,
+      132
+    ],
+    [
+      10080,
+      132
+    ],
+    [
+      10095,
+      132
+    ],
+    [
+      10110,
+      132
+    ],
+    [
+      10125,
+      132
+    ],
+    [
+      10140,
+      132
+    ],
+    [
+      10155,
+      132
+    ],
+    [
+      10170,
+      132
+    ],
+    [
+      10185,
+      132
+    ],
+    [
+      10200,
+      132
+    ],
+    [
+      10215,
+      132
+    ],
+    [
+      10230,
+      132
+    ],
+    [
+      10245,
+      132
+    ],
+    [
+      10260,
+      132
+    ],
+    [
+      10275,
+      132
+    ],
+    [
+      10290,
+      132
+    ],
+    [
+      10305,
+      132
+    ],
+    [
+      10320,
+      132
+    ],
+    [
+      10335,
+      133
+    ],
+    [
+      10350,
+      133
+    ],
+    [
+      10365,
+      133
+    ],
+    [
+      10380,
+      133
+    ],
+    [
+      10395,
+      133
+    ],
+    [
+      10410,
+      133
+    ],
+    [
+      10420,
+      133
+    ],
+    [
+      10430,
+      133
+    ],
+    [
+      10440,
+      133
+    ],
+    [
+      10450,
+      133
+    ],
+    [
+      10460,
+      133
+    ],
+    [
+      10470,
+      133
+    ],
+    [
+      10480,
+      133
+    ],
+    [
+      10490,
+      133
+    ],
+    [
+      10500,
+      133
+    ],
+    [
+      10510,
+      133
+    ],
+    [
+      10520,
+      133
+    ],
+    [
+      10530,
+      133
+    ],
+    [
+      10540,
+      133
+    ],
+    [
+      10590,
+      133
+    ],
+    [
+      10640,
+      134
+    ],
+    [
+      10690,
+      134
+    ],
+    [
+      10715,
+      134
+    ],
+    [
+      10740,
+      134
+    ],
+    [
+      10765,
+      135
+    ],
+    [
+      10790,
+      135
+    ],
+    [
+      10815,
+      135
+    ],
+    [
+      10840,
+      136
+    ],
+    [
+      10865,
+      137
+    ],
+    [
+      10890,
+      138
+    ],
+    [
+      10915,
+      139
+    ],
+    [
+      10940,
+      140
+    ],
+    [
+      10965,
+      141
+    ],
+    [
+      10990,
+      142
+    ],
+    [
+      11015,
+      142
+    ],
+    [
+      11040,
+      142
+    ],
+    [
+      11065,
+      142
+    ],
+    [
+      11090,
+      143
+    ],
+    [
+      11115,
+      143
+    ],
+    [
+      11140,
+      143
+    ],
+    [
+      11165,
+      144
+    ],
+    [
+      11190,
+      145
+    ],
+    [
+      11215,
+      145
+    ],
+    [
+      11240,
+      145
+    ],
+    [
+      11265,
+      145
+    ],
+    [
+      11290,
+      145
+    ],
+    [
+      11315,
+      145
+    ],
+    [
+      11340,
+      146
+    ],
+    [
+      11365,
+      146
+    ],
+    [
+      11390,
+      146
+    ],
+    [
+      11415,
+      146
+    ],
+    [
+      11440,
+      147
+    ],
+    [
+      11465,
+      148
+    ],
+    [
+      11490,
+      149
+    ],
+    [
+      11505,
+      149
+    ],
+    [
+      11520,
+      149
+    ],
+    [
+      11535,
+      149
+    ],
+    [
+      11550,
+      149
+    ],
+    [
+      11565,
+      149
+    ],
+    [
+      11580,
+      149
+    ],
+    [
+      11595,
+      149
+    ],
+    [
+      11610,
+      149
+    ],
+    [
+      11625,
+      149
+    ],
+    [
+      11640,
+      149
+    ],
+    [
+      11655,
+      149
+    ],
+    [
+      11670,
+      149
+    ],
+    [
+      11685,
+      149
+    ],
+    [
+      11695,
+      149
+    ],
+    [
+      11705,
+      149
+    ],
+    [
+      11715,
+      149
+    ],
+    [
+      11725,
+      149
+    ],
+    [
+      11735,
+      149
+    ],
+    [
+      11745,
+      149
+    ],
+    [
+      11755,
+      149
+    ],
+    [
+      11765,
+      149
+    ],
+    [
+      11775,
+      149
+    ],
+    [
+      11785,
+      149
+    ],
+    [
+      11795,
+      149
+    ],
+    [
+      11805,
+      149
+    ],
+    [
+      11815,
+      149
+    ],
+    [
+      11825,
+      149
+    ],
+    [
+      11835,
+      149
+    ],
+    [
+      11845,
+      149
+    ],
+    [
+      11855,
+      149
+    ],
+    [
+      11905,
+      150
+    ],
+    [
+      11955,
+      151
+    ],
+    [
+      12005,
+      151
+    ],
+    [
+      12055,
+      151
+    ],
+    [
+      12105,
+      152
+    ],
+    [
+      12155,
+      152
+    ],
+    [
+      12205,
+      153
+    ],
+    [
+      12255,
+      154
+    ],
+    [
+      12305,
+      155
+    ],
+    [
+      12355,
+      156
+    ],
+    [
+      12405,
+      157
+    ],
+    [
+      12455,
+      157
+    ],
+    [
+      12505,
+      158
+    ],
+    [
+      12555,
+      158
+    ],
+    [
+      12605,
+      158
+    ],
+    [
+      12655,
+      159
+    ],
+    [
+      12680,
+      159
+    ],
+    [
+      12705,
+      159
+    ],
+    [
+      12730,
+      159
+    ],
+    [
+      12755,
+      159
+    ],
+    [
+      12780,
+      159
+    ],
+    [
+      12805,
+      160
+    ],
+    [
+      12830,
+      161
+    ],
+    [
+      12855,
+      161
+    ],
+    [
+      12880,
+      161
+    ],
+    [
+      12905,
+      162
+    ],
+    [
+      12930,
+      163
+    ],
+    [
+      12955,
+      164
+    ],
+    [
+      12970,
+      164
+    ],
+    [
+      12985,
+      164
+    ],
+    [
+      13000,
+      164
+    ],
+    [
+      13015,
+      164
+    ],
+    [
+      13030,
+      164
+    ],
+    [
+      13045,
+      164
+    ],
+    [
+      13060,
+      164
+    ],
+    [
+      13075,
+      164
+    ],
+    [
+      13090,
+      164
+    ],
+    [
+      13105,
+      164
+    ],
+    [
+      13120,
+      164
+    ],
+    [
+      13135,
+      164
+    ],
+    [
+      13150,
+      164
+    ],
+    [
+      13165,
+      164
+    ],
+    [
+      13180,
+      164
+    ],
+    [
+      13195,
+      164
+    ],
+    [
+      13210,
+      164
+    ],
+    [
+      13220,
+      164
+    ],
+    [
+      13230,
+      164
+    ],
+    [
+      13240,
+      164
+    ],
+    [
+      13250,
+      164
+    ],
+    [
+      13260,
+      164
+    ],
+    [
+      13270,
+      164
+    ],
+    [
+      13320,
+      164
+    ],
+    [
+      13370,
+      164
+    ],
+    [
+      13420,
+      164
+    ],
+    [
+      13470,
+      165
+    ],
+    [
+      13520,
+      165
+    ],
+    [
+      13570,
+      166
+    ],
+    [
+      13595,
+      166
+    ],
+    [
+      13620,
+      166
+    ],
+    [
+      13645,
+      166
+    ],
+    [
+      13670,
+      166
+    ],
+    [
+      13695,
+      166
+    ],
+    [
+      13720,
+      166
+    ],
+    [
+      13745,
+      166
+    ],
+    [
+      13770,
+      166
+    ],
+    [
+      13795,
+      166
+    ],
+    [
+      13820,
+      166
+    ],
+    [
+      13845,
+      166
+    ],
+    [
+      13870,
+      166
+    ],
+    [
+      13895,
+      166
+    ],
+    [
+      13920,
+      166
+    ],
+    [
+      13945,
+      166
+    ],
+    [
+      13970,
+      167
+    ],
+    [
+      13985,
+      167
+    ],
+    [
+      14000,
+      167
+    ],
+    [
+      14015,
+      167
+    ],
+    [
+      14030,
+      167
+    ],
+    [
+      14045,
+      167
+    ],
+    [
+      14060,
+      167
+    ],
+    [
+      14070,
+      167
+    ],
+    [
+      14080,
+      167
+    ],
+    [
+      14090,
+      167
+    ],
+    [
+      14100,
+      167
+    ],
+    [
+      14150,
+      168
+    ],
+    [
+      14200,
+      169
+    ],
+    [
+      14250,
+      169
+    ],
+    [
+      14300,
+      170
+    ],
+    [
+      14350,
+      171
+    ],
+    [
+      14400,
+      171
+    ],
+    [
+      14450,
+      172
+    ],
+    [
+      14500,
+      173
+    ],
+    [
+      14550,
+      174
+    ],
+    [
+      14600,
+      175
+    ],
+    [
+      14650,
+      176
+    ],
+    [
+      14700,
+      177
+    ],
+    [
+      14750,
+      178
+    ],
+    [
+      14800,
+      179
+    ],
+    [
+      14850,
+      180
+    ],
+    [
+      14875,
+      180
+    ],
+    [
+      14900,
+      181
+    ],
+    [
+      14925,
+      181
+    ],
+    [
+      14950,
+      182
+    ],
+    [
+      14975,
+      183
+    ],
+    [
+      14990,
+      183
+    ],
+    [
+      15005,
+      183
+    ],
+    [
+      15020,
+      183
+    ],
+    [
+      15035,
+      183
+    ],
+    [
+      15085,
+      183
+    ],
+    [
+      15135,
+      184
+    ],
+    [
+      15160,
+      184
+    ],
+    [
+      15185,
+      184
+    ],
+    [
+      15210,
+      184
+    ],
+    [
+      15235,
+      185
+    ],
+    [
+      15245,
+      185
+    ],
+    [
+      15255,
+      185
+    ],
+    [
+      15265,
+      185
+    ],
+    [
+      15275,
+      185
+    ],
+    [
+      15285,
+      185
+    ],
+    [
+      15335,
+      186
+    ],
+    [
+      15350,
+      186
+    ],
+    [
+      15365,
+      186
+    ],
+    [
+      15380,
+      186
+    ],
+    [
+      15395,
+      186
+    ],
+    [
+      15410,
+      186
+    ],
+    [
+      15435,
+      186
+    ],
+    [
+      15460,
+      186
+    ],
+    [
+      15485,
+      186
+    ],
+    [
+      15510,
+      186
+    ],
+    [
+      15535,
+      186
+    ],
+    [
+      15585,
+      187
+    ],
+    [
+      15635,
+      188
+    ],
+    [
+      15685,
+      189
+    ],
+    [
+      15735,
+      190
+    ],
+    [
+      15785,
+      190
+    ],
+    [
+      15795,
+      190
+    ],
+    [
+      15810,
+      190
+    ],
+    [
+      15835,
+      190
+    ],
+    [
+      15885,
+      191
+    ]
+  ],
+  "feasible_graph": {
+    "nodes": 191,
+    "edges": 2046
+  },
+  "experiment": {
+    "method": "compass",
+    "n_samples": 100,
+    "slo": 0.5,
+    "timestamp": "2025-12-20T02:37:05.463783"
+  }
+}
