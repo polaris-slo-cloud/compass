@@ -105,9 +105,3 @@ python experiments/run_search.py --workflow myflow --method compass_v --slo 0.75
 ```
 
 ---
-
-## 4. Tips
-
-- **Best-first ordering matters.** COMPASS-V seeds with the best-corner and worst-corner configurations and uses the per-parameter ordering for hill-climbing. If your "best" model isn't first, the bootstrap may miss the feasible region at tight SLOs.
-- **Constraints are cheap.** Add them eagerly — every constraint-rejection saves a workflow execution.
-- **Stochastic workflows.** If `evaluate_partial(config, [i])` is non-deterministic, fix a seed inside `_score_one`. Wilson CIs assume independent samples.
