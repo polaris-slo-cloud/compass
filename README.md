@@ -78,12 +78,6 @@ plotting/                 Generates the paper figures from results/:
 ├── plot_search.py        --figure {convergence|efficiency|all}
 └── plot_serving.py       --figure {bars|scatter|cdf|timeseries|all}
 
-results/                  Experiment outputs (gitignored — populate by
-                          running experiments or scripts/reproduce_paper.sh):
-├── search/{rag,vision}/multi_slo/    COMPASS-V per-SLO results
-├── planner/                          Pareto frontier, latency profiles
-└── serving/<pattern>_slo<ms>/        Elastico + static-baseline runs
-
 scripts/
 ├── setup_ollama.sh       Pull the 6 LLMs used by RAG
 └── reproduce_paper.sh    End-to-end orchestrator
@@ -97,25 +91,6 @@ data/
                           (the FAISS index and COCO/YOLO weights are NOT
                           shipped — see "Workflow setup" below).
 ```
-
----
-
-## Requirements
-
-| Resource     | Minimum / recommended                                                  |
-| ---          | ---                                                                    |
-| OS           | Linux (tested on Ubuntu 22.04). macOS works for COMPASS-V only.        |
-| Python       | 3.10+                                                                  |
-| GPU          | NVIDIA GPU with ≥ 16 GB VRAM (paper uses RTX 4090, 24 GB)              |
-| Disk         | ~40 GB free: 30 GB Ollama models + 800 MB COCO + 1 GB indexes / weights |
-| Network      | Required for first-time downloads (Ollama, COCO, sentence-transformers) |
-
-A full paper reproduction (`bash scripts/reproduce_paper.sh`) takes roughly
-**12–15 hours** on the reference hardware: ~6 h for COMPASS-V on RAG,
-~3 h on vision, ~1 h for the planner, ~3 h for online serving runs. Pass
-`--plot-only` to regenerate figures from a previously-computed `results/`
-without re-running anything.
-
 ---
 
 ## Install
