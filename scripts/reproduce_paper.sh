@@ -8,8 +8,8 @@
 #   4. Run Elastico + static baselines under spike / bursty / ramp / step.
 #   5. Regenerate every figure under figures/.
 #
-# Skip stages 1-4 with --plot-only to just regenerate figures from the
-# shipped paper cache in results/.
+# Pass --plot-only to skip stages 1-4 (use it when results/ is already
+# populated from a previous run).
 
 set -euo pipefail
 

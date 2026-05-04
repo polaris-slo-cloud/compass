@@ -46,16 +46,7 @@ oscillation.
 *Input:* Pareto front + thresholds. *Output:* served requests that
 respect both `τ` and `δ`.
 
-```
-   offline                 offline                        online
-┌───────────────┐    ┌────────────────┐    ┌───────────────────────────┐
-│  COMPASS-V    │    │    Planner     │    │  Inference Serving        │
-│  W, D, τ ──►  │ F  │  F, H, δ ──►   │    │  Pareto + thresholds      │
-│  feasible set │───►│  Pareto +      │───►│  → Elastico controller    │
-│       F       │    │  AQM thresholds│    │  → live request serving   │
-└───────────────┘    └────────────────┘    └───────────────────────────┘
-   compass/search      compass/planner             compass/serving
-```
+![Compass framework](docs/figures/compass_framework.png)
 
 This repository contains the implementation evaluated in:
 

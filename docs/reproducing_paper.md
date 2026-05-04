@@ -1,10 +1,9 @@
 # Reproducing the paper figures
 
-The repository ships ~8 MB of cached experiment results under `results/`.
-You can regenerate every paper figure in <30 s without running any
-experiment.
+The `results/` directory is gitignored — produce its contents by running the
+experiments yourself, then plot.
 
-## Quick: regenerate from cache
+## Plotting (after `results/` is populated)
 
 ```bash
 python plotting/plot_search.py  --figure all
@@ -13,14 +12,14 @@ python plotting/plot_serving.py --figure all
 
 Outputs land in `figures/search/` and `figures/serving/` as both PDF and PNG.
 
-| Paper figure          | Script                       | Cached input                                            |
-| ---                   | ---                          | ---                                                     |
-| Fig. 1 (convergence)  | `plot_search.py --figure convergence` | `results/search/rag/multi_slo/compass/slo_*.json` |
-| Fig. 4 (efficiency)   | `plot_search.py --figure efficiency`  | hard-coded summary points (paper-final values)    |
-| Fig. bars             | `plot_serving.py --figure bars`       | `results/serving/run5/*/*.json`                   |
-| Fig. scatter          | `plot_serving.py --figure scatter`    | same                                              |
-| Fig. CDF              | `plot_serving.py --figure cdf`        | same                                              |
-| Fig. timeseries       | `plot_serving.py --figure timeseries` | same                                              |
+| Paper figure          | Script                                 | Required input                                         |
+| ---                   | ---                                    | ---                                                    |
+| Fig. 1 (convergence)  | `plot_search.py --figure convergence`  | `results/search/rag/multi_slo/compass/slo_*.json`      |
+| Fig. 4 (efficiency)   | `plot_search.py --figure efficiency`   | hard-coded summary points (paper-final values)         |
+| Fig. bars             | `plot_serving.py --figure bars`        | `results/serving/<pattern>_slo<ms>/*.json`             |
+| Fig. scatter          | `plot_serving.py --figure scatter`     | same                                                   |
+| Fig. CDF              | `plot_serving.py --figure cdf`         | same                                                   |
+| Fig. timeseries       | `plot_serving.py --figure timeseries`  | same                                                   |
 
 ## Full: rerun every experiment
 
@@ -37,7 +36,8 @@ Stages:
 4. Run Elastico + three static baselines under spike / ramp / step / bursty.
 5. Regenerate every figure under `figures/`.
 
-Skip stages 1–4 with `--plot-only` to just replot from the shipped cache.
+Pass `--plot-only` to skip stages 1–4 if `results/` is already populated
+from a previous run.
 
 ## Reproducing one figure end-to-end
 
