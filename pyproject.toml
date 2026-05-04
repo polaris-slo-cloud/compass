@@ -48,8 +48,7 @@ all = [
 ]
 
 [project.urls]
-Paper = "https://example.org/compass-ccgrid26"
-Repository = "https://github.com/distributed-systems-tuwien/compass"
+Repository = "https://github.com/polaris-slo-cloud/compass"
 
 [tool.setuptools.packages.find]
 include = ["compass*", "workflows*"]
